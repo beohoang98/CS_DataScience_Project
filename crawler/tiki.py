@@ -11,7 +11,7 @@ def get_products(html):
         price = product.attrs['data-price']
         brand = product.attrs['data-brand']
         product_list.append({
-            'title': title,
+            'title': title.strip('\t'),
             'brand': brand,
             'price': price,
         })
