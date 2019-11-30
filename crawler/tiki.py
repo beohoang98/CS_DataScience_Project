@@ -42,7 +42,7 @@ def main():
             break;
 
     df = pd.DataFrame(products, columns=['title', 'brand', 'price'])
-    df.to_csv('tiki_meta.csv', sep='\t')
+    df.to_csv('tiki_meta.csv')
 
 if __name__ == "__main__":
     main()
