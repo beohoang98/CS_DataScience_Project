@@ -11,8 +11,8 @@ def get_products(html):
         brand = product.attrs['data-brand']
         product_list.append({
             title,
-            price,
             brand,
+            price,
         })
 
     return list(product_list)
@@ -27,7 +27,7 @@ def main():
     products = get_products(response.html)
 
     df = pd.DataFrame.from_records(products, columns=['title', 'brand', 'price'])
-    df.to_csv('tiki.csv')
+    df.to_csv('tiki.csv', sep=',')
 
 if __name__ == "__main__":
     main()
