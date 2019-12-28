@@ -12,6 +12,9 @@ matplotlib = "*"
 jupyterlab = "*"
 requests = "*"
 requests-html = "*"
+selenium = "*"
+colorlog = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.6"
