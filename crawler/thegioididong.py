@@ -19,7 +19,7 @@ url = "https://www.thegioididong.com/laptop#i:50"
 detail_url = "https://www.thegioididong.com/aj/ProductV4/GetFullSpec/"
 DRIVER_EXT = 'exe' if (sys.platform == "Windows") else ''
 CHROME_EXEC="./driver/chromedriver" + DRIVER_EXT
-CONCURRENT = 1
+CONCURRENT = 4
 
 meta_attributes = list([
     "id",
@@ -82,7 +82,7 @@ def meta():
         print (err)
 
     df = pd.DataFrame(data_meta)
-    df.to_csv('tgdd_meta.csv', sep=',')
+    df.to_csv('tgdd_meta.csv', sep=',', index=False)
     logger.info(f'Crawled { len(data_meta) } record(s)')
 
     return data_meta
@@ -97,9 +97,7 @@ def crawl_detail(meta: dict):
         }, headers={
             'accept': '*/*',
             'authority': 'www.thegioididong.com',
-            'origin': 'https://www.thegioididong.com',
-            'content-type': 'appplication/x-www-form-urlencoded',
-            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+            'content-type': 'application/x-www-form-urlencoded',
         })
         return res
     
@@ -115,13 +113,14 @@ def crawl_detail(meta: dict):
         logger.error(f'{ res.status_code } - { res.reason } - { res.text }')
         return meta
 
+
     detail_out = meta.copy()
     json = {}
     try:
         json = res.json()
         html = BeautifulSoup(res.json()['spec'])
     except :
-        logger.error(res.raw)
+        logger.error(res.text)
         return meta
     
     for attr, tag in detail_attributes.items():
@@ -130,19 +129,46 @@ def crawl_detail(meta: dict):
             logger.debug(f'Missing {attr}')
             continue
 
-        text_el = element.select_one('a') or element.select_one('div')
+        text_el = element.select_one('a') or element.select_one('div:not([class])')
         text: str = text_el.get_text()
         text = text.lower()
         if attr == 'screen_port':
             has_hdmi = 'hdmi' if text.find('hdmi') > -1 else ''
             has_vga = 'vga' if text.find('vga') > -1 else ''
             text = ','.join([has_hdmi, has_vga])
-        
+        elif attr == 'price':
+            text = text.replace(r'\D+')
+            text = int(text)
+
         detail_out[attr] = text
-    
-    logger.debug('crawled attr ' + ','.join(detail_out.keys()) )
+
+    danh_gia = crawl_danh_gia(meta)
+    detail_out.update(danh_gia)
 
     return detail_out
+
+def crawl_danh_gia(meta: dict) -> dict:
+    session = HTMLSession()
+    id = meta['id']
+    link = meta['link']
+    logger.info(f'Crawl Danh gia {id}: {link}')
+
+    html = session.get(f'{link}/danh-gia').html
+
+    data_div = html.find('#danhgia [data-s]', first=True)
+    brand_div = html.find('li[class=brand] a', first=True)
+
+    review_point = data_div.attrs['data-gpa'] if data_div else 0
+    review_count = data_div.attrs['data-c'] if data_div else 0
+    brand = brand_div.text if brand_div else ''
+
+    out_dict = { 
+        'review_point': review_point,
+        'review_count': review_count,
+        'brand': brand,
+    }
+
+    return out_dict
 
 def detail(data_meta: list):
     pool = Pool(CONCURRENT)
@@ -150,7 +176,10 @@ def detail(data_meta: list):
     data_detail = list(np.array(res).flat)
     logger.info(f'Crawled { len(data_detail) }')
     df = pd.DataFrame(data_detail)
-    df.to_csv('tgdd_detail.csv')
+    df.to_csv('tgdd_detail.csv', index=False)
+
+def chuan_hoa():
+    pass
 
 if __name__ == "__main__":
     # data_meta = meta()
