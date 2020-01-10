@@ -1,339 +1,591 @@
-battery,category,cpu_name,cpu_type,disk,graphic,id,keyboard_light,name,ram,resolution,ssd,weight
-,laptop-gaming,Intel Core i7,8565U,256GB,AMD Radeon 520,,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
-,laptop-gaming,Intel Core i7,9750H,256 GB,GeForce GTX 1050Ti 4GB,,,Laptop MSI GF75 9RCX-430VN,,,1,2.2 kg
-,laptop-gaming,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS S430FA-EB074T VÀNG,,,0,1.4 kg
-,laptop-gaming,Intel Core i5,9300H,,NVIDIA GeForce GTX 1050Ti 4GB GDDR5 + Intel UHD Graphics 620,,,Laptop MSI GF63 9RCX - 646VN,,,1,2.3 kg
-,laptop-gaming,Intel Core i7,8550U,,NVIDIA GeForce MX130,,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
-,laptop-gaming,Intel Core i7,9750H,256 GB,NVIDIA GeForce GTX 1650,,,LAPTOP MSI GF63 9SC-070VN,,,1,1.9 kg
-,laptop-gaming,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
-,laptop-gaming,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
-,laptop-gaming,AMD Ryzen™ 7,3750H,512 GB,NVIDIA GeForce® GTX 1660Ti,,,Laptop Asus FX505DU-AL070T,,,1,2.2 kg
-,laptop-gaming,Core i5,9300H,1TB,NVIDIA GeForce GTX 1650 GDDR5,,,Laptop HP Pavilion Gaming 15 DK0001TX (7HR11PA),,,0,2.23 kg
-,laptop-gaming,Intel Core i7,9750H,512GB,Nvidia GTX 1050Ti + UHD 630,,,Laptop MSI GF63 9RCX-645VN I7/8/512/4G/VX,,,1,2.3 kg
-,laptop-gaming,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,,LAPTOP DELL V5481 (P92G001V81A),,,0,1.55 kg
-,laptop-gaming,Intel Core i7,8565U,1TB,MX250,,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
-,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
-,laptop-gaming,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
-,laptop-gaming,Intel Core i7,9750H,1TB,GTX 1050,,,LAPTOP LENOVO L340-15IRH (81LK007JVN),,,0,2.2 kg
-,laptop-gaming,Intel Core i5,8300H,1TB + 128GB,Nividia GTX 1050,,,LAPTOP LENOVO LEGION Y530-15ICH (81FV00STVN),,,1,2.3 kg
-,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050Ti,,,LAPTOP ASUS FX505GE-BQ052T,,,0,2.2 kg
-,laptop-gaming,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
-,laptop-gaming,Intel Core i7,8550U,1TB,AMD Radeon 520,,,LAPTOP DELL INSPIRON 14 3476 70181694,,,0,1.95 kg
-,laptop-gaming,Intel Core i5,9300H,1TB,GTX 1050,,,LAPTOP LENOVO L340-15IRH (81LK007HVN),,,0,2.2 kg
-,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050,,,LAPTOP ACER NITRO 5 AN515-52-51GF NH.Q3MSV.001,,,0,2.45 kg
-,laptop-gaming,Intel Core i5,9300H,512 GB,NVIDIA GeForce GTX 1050,,,Laptop Asus G531GD (AL025T),,,1,2.395 kg
-,laptop-gaming,Core i5,9300H,512GB,NVIDIA,,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
-,laptop-gaming,i7,9750H,256GB,NVIDIA GeForce GTX 1050,,,Laptop Dell Inspiron 15 7591 KJ2G41,,,1,1.8 kg
-,laptop-gaming,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
-,laptop-gaming,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
-,do-hoa-ky-thuat,Intel Core i7,8565U,,AMD M520,,,Laptop Dell Inspiron 3480 (N4I7116W),,,0,1.79 kg
-,do-hoa-ky-thuat,Core i5,8250U,,Intel UHD Graphics 620,,,Laptop HP NoteBook 14S-CF1040TU (7PU14PA),,,0,
-,do-hoa-ky-thuat,Core i5,8265U,512GB,Intel UHD Graphics 620,,,LAPTOP ASUS X509FA-EJ203T,,,1,1.9 kg
-,do-hoa-ky-thuat,Core i5,8265U,,ntel HD Graphics 620,,,Laptop Dell Vostro 3580 (T3RMD1),,,0,2.2 kg
-,do-hoa-ky-thuat,Intel Core i7,8565U,256GB,AMD Radeon 520,,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
-,do-hoa-ky-thuat,AMD Ryzen™ 7,3700U,256 GB,Vega 10,,,LAPTOP HP ENVY X360 (6ZF34PA),,,1,1.3 kg
-,do-hoa-ky-thuat,Core i5,8265U,1TB,NVIDIA GeForce MX130,,,Laptop HP 15S-DU0038TX,,,0,
-,do-hoa-ky-thuat,Intel Core i3,7020U,,Intel HD Graphics 620,,,Laptop Dell Inspiron 3481 (030CX1),,,0,1.7 kg
-,do-hoa-ky-thuat,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,Laptop HP Pavilion 14 CE2034TU (6YZ17PA),,,0,
-,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX130,,,Laptop Asus X507UF-EJ079T,,,0,1.5 kg
-,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX110,,,LAPTOP ASUS X407U - BV147T,,,0,1.52 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS S430FA-EB074T VÀNG,,,0,1.4 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX250,,,Laptop Asus A512FL (EJ163T),,,0,1.7 kg
-,do-hoa-ky-thuat,Intel Core i7,8565U,1TB,NVIDIA GeForce MX250,,,Laptop Asus A512FL- EJ165T,,,0,1.7 kg
-,do-hoa-ky-thuat,Intel Core i5,9300H,,NVIDIA GeForce GTX 1050Ti 4GB GDDR5 + Intel UHD Graphics 620,,,Laptop MSI GF63 9RCX - 646VN,,,1,2.3 kg
-,do-hoa-ky-thuat,Intel Core i7,8550U,,NVIDIA GeForce MX130,,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
-,do-hoa-ky-thuat,Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop Asus X509FA-EJ201T,,,0,1.9 kg
-,do-hoa-ky-thuat,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,,LAPTOP HP ENVY X360 (6ZF30PA),,,1,1.3 kg
-,do-hoa-ky-thuat,Intel Core i7,9750H,256 GB,NVIDIA GeForce GTX 1650,,,LAPTOP MSI GF63 9SC-070VN,,,1,1.9 kg
-,do-hoa-ky-thuat,Intel Core i3,10110U,1 TB,Intel UHD Graphics,,,Laptop Dell Vostro 3590 V5I3505W,,,0,
-,do-hoa-ky-thuat,Core i5,8265U,1 TB,NVIDIA GeForce MX230 2GB GDDR5,,,Laptop Asus X509F-EJ153T,,,0,1.8 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,MX130,,,Laptop HP Pavilion 15 CS2057TX (6YZ20PA) Xám,,,0,1.85 kg
-,do-hoa-ky-thuat,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
-,do-hoa-ky-thuat,AMD Ryzen™ 3,3200U,256 GB,AMD Radeon™ Vega 3 Graphics,,,Laptop Acer Aspire A315-42-R8PX,,,1,
-,do-hoa-ky-thuat,Intel Core i7,8265U,512 GB,NVIDIA GeForce MX230,,,Laptop Asus X409FJ-EK137T,,,1,1.6 kg
-,do-hoa-ky-thuat,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
-,do-hoa-ky-thuat,Core i5,8250U,256 GB,AMD Radeon 530,,,Laptop Dell Vostro 5370 (V5370B),,,1,
-,do-hoa-ky-thuat,Core i5,10210U,256 GB,Intel UHD Graphics 620,,,Laptop Acer Aspire A315-54-52HT,,,1,
-,do-hoa-ky-thuat,Core i5,10210U,512 PCie,Intel UHD Graphics,,,Laptop Acer Aspire A315-54-59ZJ,,,1,
-,do-hoa-ky-thuat,Core i5,9300H,1TB,NVIDIA GeForce GTX 1650 GDDR5,,,Laptop HP Pavilion Gaming 15 DK0001TX (7HR11PA),,,0,2.23 kg
-,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,UHD Intel® 620,,,LAPTOP LENOVO IDEAPAD 330-14IKBR 81G2007BVN,,,0,2.1 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop HP 14 CK1004TU (5QH84PA),,,0,1.47 kg
-,do-hoa-ky-thuat,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP ENVY 13-AQ0027TU (6ZF43PA),,,1,1.18 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX 130,,,LAPTOP HP PAVILION 15-CS2056TX,,,0,
-,do-hoa-ky-thuat,Intel Core i3,7020U,1TB,Intel® HD Graphics 620,,,Laptop Dell Inspiron N3567,,,0,
-,do-hoa-ky-thuat,AMD Ryzen™ 7,2700U,256GB PCie,,,,Laptop HP ProBook 455 G6 6XA63PA,,,1,2.0 kg
-,do-hoa-ky-thuat,Intel Core i5,10210U,1TB,AMD 610 GDDR5,,,Laptop Dell Vostro V3590A (P75F010N90A),,,0,
-,do-hoa-ky-thuat,Core i5,10210U,512 GB,,,,Laptop HP 15S-DU1037TX (8RK37PA),,,1,1.74 kg
-,do-hoa-ky-thuat,Intel Core i7,10510U,512 GB,,,,Laptop HP 15S-DU1040TX (8RE77PA),,,1,1.74 kg
-,do-hoa-ky-thuat,Intel Core i7,9750H,512GB,Nvidia GTX 1050Ti + UHD 630,,,Laptop MSI GF63 9RCX-645VN I7/8/512/4G/VX,,,1,2.3 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,,LAPTOP DELL V5481 (P92G001V81A),,,0,1.55 kg
-,do-hoa-ky-thuat,Intel Core i3,7200U,1TB,Intel HD Graphics 620,,,LAPTOP ACER ASPIRE A315-325E (NX.GNPSV.037),,,0,1.91 kg
-,do-hoa-ky-thuat,AMD Ryzen™ 5,3500U,512 GB,Radeon™ Vega 8 Graphics,,,Laptop Asus UM462DA- AI091T,,,1,1.6 kg
-,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX150,,,LAPTOP ASUS VIVOBOOK S15 S530UN-BQ198T,,,0,1.79 kg
-,do-hoa-ky-thuat,Intel Core i7,8565U,1TB,MX250,,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
-,do-hoa-ky-thuat,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GREY (MV962SA/A),,,1,1.37 kg
-,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
-,do-hoa-ky-thuat,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
-,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
-,do-hoa-ky-thuat,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
-,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,Intel® UHD Graphics 620,,,LAPTOP ASUS VIVO BOOK S530UA-BQ278T,,,0,1.44 kg
-,do-hoa-ky-thuat,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MV992SA/A),,,1,1.37 kg
-,do-hoa-ky-thuat,Intel Core i3,8145U,512GB,Intel UHD Graphics 620,,,Laptop Asus A412F-EK223T,,,1,
-,do-hoa-ky-thuat,Core i5,1035G1,256GB,NVIDIA,,,Laptop Dell Inspiron 15 5000 5593 N5I5513W,,,1,
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,,LAPTOP DELL INSPIRON 5584 - N5I5384W-BẠC,,,0,1.95 kg
-,do-hoa-ky-thuat,Intel Core i5,9300H,1TB,GTX 1050,,,LAPTOP LENOVO L340-15IRH (81LK007HVN),,,0,2.2 kg
-,do-hoa-ky-thuat,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
-,do-hoa-ky-thuat,Intel Core i3,8130U,256 GB,Intel UHD Graphics 620,,,LAPTOP ASUS VIVOBOOK S530UA - BQ177T,,,1,1.6 kg
-,do-hoa-ky-thuat,Intel Core i7,8565U,2TB,AMD Radeon 520,,,LAPTOP DELL INSPIRON 3580 (70188451),,,0,2.19 kg
-,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050Ti,,,LAPTOP ASUS FX505GE-BQ052T,,,0,2.2 kg
-,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,AMD Radeon 520,,,LAPTOP DELL INSPIRON 14 3476 70181694,,,0,1.95 kg
-,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,,,LAPTOP ASUS X509FJ- EJ053T,,,0,1.8 kg
-,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050,,,LAPTOP ACER NITRO 5 AN515-52-51GF NH.Q3MSV.001,,,0,2.45 kg
-,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,Intel UHD Graphics 620,,,LAPTOP ACER SPIN 3 SP314-51(NX.GUWSV.004),,,0,1.7 kg
-,do-hoa-ky-thuat,Core i5,9300H,256GB,VGA NVIDIA,,,Laptop Dell Inspiron 7591-N5I5591W,,,1,
-,do-hoa-ky-thuat,i7,9750H,256GB,NVIDIA GeForce GTX 1050,,,Laptop Dell Inspiron 15 7591 KJ2G41,,,1,1.8 kg
-,do-hoa-ky-thuat,Core i5,9300H,512GB,NVIDIA,,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
-,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,NVIDIA GeForce MX110,,,LAPTOP ASUS X407U - BV145T,,,0,1.52 kg
-,do-hoa-ky-thuat,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
-,do-hoa-ky-thuat,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3119TX (9FN16PA),,,1,"1,746 kg"
-,do-hoa-ky-thuat,Intel Core i7,8550U,256 GB,Intel UHD Graphics 620,,,LAPTOP ASUS S430UA-EB097T,,,1,1.40 kg
-,do-hoa-ky-thuat,Intel Core i5,1035G1,512 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3060TX (8RJ61PA),,,1,"1,761 kg"
-,do-hoa-ky-thuat,,,512 GB,NVIDIA GeForce MX250,,,Laptop HP Pavilion 15-CS3063TX (8RK42PA),,,1,"1,766 kg"
-,do-hoa-ky-thuat,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3116TX (9AV24PA),,,1,"1,755 kg"
-,do-hoa-ky-thuat,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
-,do-hoa-ky-thuat,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
-,do-hoa-ky-thuat,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
-,do-hoa-ky-thuat,Intel Core,i9,1 TB,,,,Macbook Pro 16.0 inch 1TB Gray (MVVK2SA/A),,,1,2.0 kg
-,do-hoa-ky-thuat,Intel Core,i9,1 TB,,,,Macbook Pro 16.0 inch 1TB Silver (MVVM2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Core i5,8250U,,Intel UHD Graphics 620,,,Laptop HP NoteBook 14S-CF1040TU (7PU14PA),,,0,
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,,Laptop HP 348 G5 (7XU21PA),,,1,1.48 kg
-,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,,LAPTOP ASUS X509FA-EJ203T,,,1,1.9 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,,Laptop Acer Aspire A515-53G-564C (NX.H82SV.001),,,0,2.072 kg
-,hoc-tap-van-phong,Intel Core i3,7130U,500 GB,Intel HD Graphics 620,,,Laptop Lenovo Ideapad 330-15IKB 81DC00ENVN,,,0,1.8 kg
-,hoc-tap-van-phong,Core i5,8265U,,ntel HD Graphics 620,,,Laptop Dell Vostro 3580 (T3RMD1),,,0,2.2 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,Máy tính xách tay Dell Vostro 5581 (70175950),,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,256GB,AMD Radeon 520,,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,,,Laptop Dell Inspiron 3580 (70194513),,,0,2.19 kg
-,hoc-tap-van-phong,AMD Ryzen™ 5,2500U,1TB,AMD Radeon Vega 8 Graphics,,,LAPTOP ASUS X505ZA-EJ505T,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,Laptop Dell Vostro 3480 (70187706),,,0,1.8 kg
-,hoc-tap-van-phong,AMD Ryzen™ 7,3700U,256 GB,Vega 10,,,LAPTOP HP ENVY X360 (6ZF34PA),,,1,1.3 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel UHD Graphics 620,,,LAPTOP DELL VOSTRO 15 3578 (NGMPF22),,,0,2.2 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX130,,,Laptop Asus X507UF-EJ078T,,,0,1.68 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,,Laptop Asus X509FA-EJ103T,,,1,1.8 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,,Intel HD Graphics 620,,,Laptop Dell Inspiron 3481 (030CX1),,,0,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,,LAPTOP DELL INSPIRON 3480I (P89G003N80I),,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS VIVOBOOK A412FA-EK153T,,,0,1.5 kg
-,hoc-tap-van-phong,Core i5,8265U,256 GB,Intel UHD Graphics 620,,,Laptop Acer Aspire 3 A315-54-57PJ,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,Laptop HP Pavilion 14 CE2034TU (6YZ17PA),,,0,
-,hoc-tap-van-phong,Intel Core i3,7020U,256 GB,Intel HD Graphics 620,,,LAPTOP ACER ASPIRE 3 A315-54K-36QU (NX.HEESV.007),,,1,1.9 kg
-,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX130,,,Laptop Asus X507UF-EJ079T,,,0,1.5 kg
-,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX110,,,LAPTOP ASUS X407U - BV147T,,,0,1.52 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,,Laptop Dell Vostro V3580I (P75F010V80I),,,0,2.2 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,,Intel UHD Graphics 620,,,LAPTOP ACER ASPIRE E5-476-50SZ,,,0,2.0 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,,LAPTOP ASUS VIVOBOOK A512FA-EJ440T,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,LAPTOP ACER ASPIRE A514-51-525E (NX.H6VSV.002),,,0,1.9 kg
-,hoc-tap-van-phong,AMD Ryzen™ 7,3700U,512GB,AMD Radeon™ Vega 10 Graphics,,,Laptop Asus A512DA-EJ418T,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,,Intel UHD Graphics 620,,,LAPTOP ACER ASPIRE A515-53-50ZD (NX.H6DSV.001),,,0,2.072 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,,LAPTOP HP 15-DA0051TU (4ME64PA),,,0,1.77 kg
-,hoc-tap-van-phong,Intel Core i7,8550U,,NVIDIA GeForce MX130,,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS X509FA-EJ101T,,,0,1.8 kg
-,hoc-tap-van-phong,Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop Asus X509FA-EJ201T,,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,,LAPTOP DELL INSPIRON N5480B (P92G001),,,1,1.48 kg
-,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,,LAPTOP HP ENVY X360 (6ZF30PA),,,1,1.3 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,500 GB,AMD Radeon R7 M530 2GB,,,LAPTOP LENOVO IDEAPAD 330-15IKB (81DE01JSVN),,,0,1.95 kg
-,hoc-tap-van-phong,Intel Core i3,10110U,1 TB,Intel UHD Graphics,,,Laptop Dell Vostro 3590 V5I3505W,,,0,
-,hoc-tap-van-phong,Core i5,8265U,1 TB,NVIDIA GeForce MX230 2GB GDDR5,,,Laptop Asus X509F-EJ153T,,,0,1.8 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,Laptop HP Pavilion 15 CS2033TU 6YZ14PA Xám,,,0,1.85 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,Laptop HP Pavilion 15 CS2034TU 6YZ06PA Vàng,,,0,1.85 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,,Intel UHD Graphics 620,,,Laptop HP ProBook 430 G6 (5YN22PA),,,1,1.49 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,MX130,,,Laptop HP Pavilion 15 CS2057TX (6YZ20PA) Xám,,,0,1.85 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop HP Pavilion X36014-DH0104TU,,,0,1.607 kg
-,hoc-tap-van-phong,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
-,hoc-tap-van-phong,AMD Ryzen™ 3,3200U,256 GB,AMD Radeon™ Vega 3 Graphics,,,Laptop Acer Aspire A315-42-R8PX,,,1,
-,hoc-tap-van-phong,Intel Core i7,8265U,512 GB,NVIDIA GeForce MX230,,,Laptop Asus X409FJ-EK137T,,,1,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX110,,,LAPTOP HP 15-DA1031TX (5NK55PA),,,0,1.77 kg
-,hoc-tap-van-phong,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
-,hoc-tap-van-phong,Core i5,8250U,256 GB,AMD Radeon 530,,,Laptop Dell Vostro 5370 (V5370B),,,1,
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP PROBOOK 430 G6 (5YN00PA),,,1,1.4 kg
-,hoc-tap-van-phong,Core i5,10210U,256 GB,Intel UHD Graphics 620,,,Laptop Acer Aspire A315-54-52HT,,,1,
-,hoc-tap-van-phong,i3,8145U,512GB,,,,Laptop Asus A512FA EJ1170T,,,1,1.8 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,512 GB,Intel UHD Graphics 620,,,Laptop Asus A512FA-EJ837T,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,10210U,256 GB,Intel UHD Graphics 620,,,Laptop Acer A514-52-516K (NX.HMHSV.002),,,1,1.6 kg
-,hoc-tap-van-phong,Core i5,10210U,512 PCie,Intel UHD Graphics,,,Laptop Acer Aspire A315-54-59ZJ,,,1,
-,hoc-tap-van-phong,Core i5,8265U,512 GB,Intel UHD Graphics 620,,,Laptop Asus S431FA-EB511T,,,1,1.4 kg
-,hoc-tap-van-phong,Core i5,10210U,512 GB,Intel UHD Graphics,,,Laptop Dell Inspiron 13 7000 2-in-1,,,1,1.4 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,UHD Intel® 620,,,LAPTOP LENOVO IDEAPAD 330-14IKBR 81G2007BVN,,,0,2.1 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,LAPTOP DELL INSPIRON 3480 (N4I5107W) BẠC,,,0,1.66 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP ENVY 13-AQ0027TU (6ZF43PA),,,1,1.18 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX 130,,,LAPTOP HP PAVILION 15-CS2056TX,,,0,
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,LAPTOP HP PAVILION X36014-DH0103TU,,,0,1.65 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP HP PAVILION 14-CE2039TU,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP HP PAVILION 14-CE2038TU,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,LAPTOP HP PAVILION 14-CE2041TU,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,,Intel HD Graphics 620,,,Laptop Dell Vostro 3480-70187708,,,0,1.9 kg
-,hoc-tap-van-phong,Core i5-8265U,8145U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS A412FA-EK153T BẠC,,,0,1.5 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,Laptop Asus Vivobook A512FA-EJ099T,,,0,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP ENVY 13-AQ0026TU (6ZF38PA),,,1,1.18 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,,Laptop Dell Inspiron 3580 (70194511),,,0,2.19 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop Dell Vostro 5581 (70194501),,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,,Laptop Asus S531FA (BQ105T),,,1,1.8 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,NVIDIA GeForce MX250,,,Laptop Asus S531FL (BQ190T),,,1,1.8 kg
-,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,,Laptop Asus A412F-EK224T,,,1,1.4 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel® HD Graphics 620,,,Laptop Dell Inspiron N3567,,,0,
-,hoc-tap-van-phong,AMD Ryzen™ 7,2700U,256GB PCie,,,,Laptop HP ProBook 455 G6 6XA63PA,,,1,2.0 kg
-,hoc-tap-van-phong,AMD Quad Core,R5-3500U,256 GB,NVIDIA GeForce GTX 1050,,,Laptop Asus D570DD-E4028T,,,1,
-,hoc-tap-van-phong,Intel Core i5,1035G1,1TB,,,,Laptop Dell Inspiron N3593 (P75F013N93B),,,0,
-,hoc-tap-van-phong,Intel Core i5,10210U,1TB,AMD 610 GDDR5,,,Laptop Dell Vostro V3590A (P75F010N90A),,,0,
-,hoc-tap-van-phong,Core i5,10210U,512 GB,,,,Laptop HP 15S-DU1037TX (8RK37PA),,,1,1.74 kg
-,hoc-tap-van-phong,Intel Core i7,10510U,512 GB,,,,Laptop HP 15S-DU1040TX (8RE77PA),,,1,1.74 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,,Intel HD Graphics 620,,,Laptop HP 240 G7 (9FM95PA),,,0,
-,hoc-tap-van-phong,Core i5,8265U,512 GB,Intel UHD Graphics 620,,,Laptop Asus X409FA-EK201T,,,1,1.5 kg
-,hoc-tap-van-phong,,,1TB,,,,Laptop Asus X409UA-EK092T,,,0,1.6 kg
-,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,,Laptop Asus S531FA-BQ154T,,,1,1.75 kg
-,hoc-tap-van-phong,Intel Core i3,1005G1,1TB,,,,Laptop Dell Inspiron N3593 (P75F013N93A),,,0,
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,,,,LAPTOP ASUS S530FA-BQ185T,,,0,1.78 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,500 GB,Intel UHD Graphics 620,,,LAPTOP HP PROBOOK 440 G6 (5YM63PA),,,0,1.6 kg
-,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,,Laptop Acer Swift 3 SF314-41-R8VS R5 (NX.HFDSV.002),,,1,1.5 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP PROBOOK 440 G6 (6FG86PA),,,1,1.6 kg
-,hoc-tap-van-phong,Intel Core i3,7200U,1TB,Intel HD Graphics 620,,,LAPTOP ACER ASPIRE A315-325E (NX.GNPSV.037),,,0,1.91 kg
-,hoc-tap-van-phong,Intel Core i5,8350U,256 GB,Intel UHD Graphics 620,,,LAPTOP DELL LATITUDE 5490 (70156591),,,1,1.8 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,,Laptop Asus P1440FA-FA0420T,,,1,1.6 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,1TB,MX250,,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
-,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX150,,,LAPTOP ASUS VIVOBOOK S15 S530UN-BQ198T,,,0,1.79 kg
-,hoc-tap-van-phong,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GREY (MV962SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,,Laptop Asus P1440FA-FA0420T,,,1,1.6 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,1TB,MX250,,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
-,hoc-tap-van-phong,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,NVIDIA GeForce MX130,,,LAPTOP DELL INSPIRON 5584 - N5I5413W-BẠC,,,1,1.95 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,,LAPTOP ASUS VIVOBOOK A512FA-EJ571T,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,Dual‑core 8th‑gen,128 GB,Intel UHD Graphics 617,,,MACBOOK AIR 13.3 INCH 2019 128GB GOLD (MVFM2SA/A),,,1,1.25 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 605,,,LAPTOP ACER ASPIRE A515-53-3153,,,0,2.0 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel HD Graphics 620,,,LAPTOP ACER SWIFT 3 SF315-52-52Z7- NX.GZBSV.004,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Pentium,N5000,64 GB,Intel UHD Graphics 605,,,LAPTOP ACER SWIFT SF114-32-P2SG NX.GZISV.001,,,0,1.4 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,512GB,Intel UHD Graphics 620,,,Laptop Asus A412F-EK223T,,,1,
-,hoc-tap-van-phong,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MV992SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel® UHD Graphics 620,,,LAPTOP ASUS VIVO BOOK S530UA-BQ278T,,,0,1.44 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS X407UA - BV309T,,,0,1.45 kg
-,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,,LAPTOP ASUS A510UA-EJ1217T,,,0,1.78 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel HD Graphics 620,,,LAPTOP LENOVO THINKPAD E490S 20NGS01N00,,,1,2.82 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,,Intel UHD Graphics,,,LAPTOP ASUS S510UA-BQ1249T,,,0,1.78 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,NVIDIA GeForce MX150,,,Laptop Asus S330FN (EY037T),,,1,1.2 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,AMD Radeon 530 2GB GDDR5,,,LAPTOP DELL INSPIRON 15 5570 (M5I5238),,,0,2.3 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256GB,Intel UHD Graphics 620,,,Laptop Asus S430FA-EB459T,,,1,1.54 kg
-,hoc-tap-van-phong,Intel Core i5,Dual Core,128 GB,Intel Iris Plus Graphics 640,,,MACBOOK PRO 13 INCH 128GB 2017 (MPXQ2SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,,,LAPTOP ASUS X509FJ- EJ053T,,,0,1.8 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,,,LAPTOP DELL INSPIRON 3580 (70188451),,,0,2.19 kg
-,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,,Laptop Asus S530UA BQ034T,,,0,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,,LAPTOP DELL INSPIRON 5584 - N5I5384W-BẠC,,,0,1.95 kg
-,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,,Laptop Asus S530UA BQ034T,,,0,1.6 kg
-,hoc-tap-van-phong,Core i5,1035G1,256GB,NVIDIA,,,Laptop Dell Inspiron 15 5000 5593 N5I5513W,,,1,
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,,LAPTOP LENOVO THINKPAD L390 20NRS00100,,,1,1.46 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel UHD Graphics 620,,,LAPTOP DELL VOSTRO 13 5370 (7M6D51),,,1,1.4 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,,,,Laptop Dell Latitude 3400 (70188730),,,1,
-,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel HD Graphics 620,,,MÁY TÍNH XÁCH TAY ASUS S510UA - BQ222T,,,1,1.7 kg
-,hoc-tap-van-phong,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel UHD Graphics,,,LAPTOP ACER SWIFT 3 SF314-54-58KB NX.GXZSV.002,,,1,1.5 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,,Laptop Acer Swift 3 SF314-56-38UE,,,1,1.5 kg
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX150,,,LAPTOP ASUS VIVOBOOK S410UN-EB210T,,,0,1.4 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,,LAPTOP HP PROBOOK 440 G6 (5YM61PA),,,1,1.6 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,,LAPTOP ACER SWIFT 5 SF514-53T-58PN (NX.H7HSV.001) XANH,,,1,0.97 kg
-,hoc-tap-van-phong,Core i5,9300H,256GB,VGA NVIDIA,,,Laptop Dell Inspiron 7591-N5I5591W,,,1,
-,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel HD Graphics 620,,,LAPTOP DELL INSPIRON 14 3476 (8J61P1),,,0,1.97 kg
-,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,,LAPTOP ACER ASPIRE A515-53-30QH (NX.H6BSV.003),,,0,2.072 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,,LAPTOP HP 15-DA0050TU (4ME67PA),,,0,1.77 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 520,,,Laptop Asus X509UA-EJ116T,,,0,1.9 kg
-,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,512GB,AMD Radeon™ Vega 8 Graphics,,,Laptop Asus A512DA-EJ406T,,,1,1.7 kg
-,hoc-tap-van-phong,Core i5,9300H,512GB,NVIDIA,,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,,LAPTOP LENOVO THINKPAD E490S 20NGS01K00,,,1,2.82 kg
-,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel HD Graphics 620,,,LAPTOP LENOVO THINKPAD L390 20NRS00500,,,1,1.46 kg
-,hoc-tap-van-phong,Intel Core i5,Quad‑core 8th‑gen,256 GB,Intel Iris Plus Graphics 645,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GRAY (MUHP2SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i5,Quad‑core 8th‑gen,256 GB,Intel Iris Plus Graphics 645,,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MUHR2SA/A),,,1,1.37 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,LAPTOP DELL INSPIRON 3480 (N4I5107W) ĐEN,,,0,1.66 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 520,,,Laptop Asus X509UA-EJ116T,,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,,LAPTOP HP 15-DA0050TU (4ME67PA),,,0,1.77 kg
-,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,512GB,AMD Radeon™ Vega 8 Graphics,,,Laptop Asus A512DA-EJ406T,,,1,1.7 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,,LAPTOP LENOVO THINKPAD E490S 20NGS01K00,,,1,2.82 kg
-,hoc-tap-van-phong,Core i5,9300H,512GB,NVIDIA,,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
-,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX110,,,LAPTOP ASUS X407U - BV145T,,,0,1.52 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel® UHD Graphics 620,,,LAPTOP DELL N3567 P63F002N67S,,,0,1.9 kg
-,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 620,,,LAPTOP DELL VOSTRO 3468 (70161069),,,0,1.76 kg
-,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,,LAPTOP HP 15-DA1022TU (5NK80PA),,,0,1.77 kg
-,hoc-tap-van-phong,Intel Core i5,10210U,512 GB,Intel UHD Graphics 620,,,Laptop Acer A515-54-54EU (NX.HN3SV.002),,,1,1.7 kg
-,hoc-tap-van-phong,,,256 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3015TU (8QP15PA),,,1,"1,698 kg"
-,hoc-tap-van-phong,Intel Core i5,1035G1,,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3011TU (8QN96PA),,,0,"1,706 kg"
-,hoc-tap-van-phong,Core i5,10210U,512 GB,Intel UHD Graphics 620,,,Laptop Asus UX434FAC-A6116T,,,1,1.26 kg
-,hoc-tap-van-phong,Core i5,10210U,512 GB,NVIDIA GeForce MX250,,,Laptop Asus UX434FLC-A6212T,,,1,1.26 kg
-,hoc-tap-van-phong,,,512 GB,NVIDIA GeForce MX250,,,Laptop HP Pavilion 15-CS3063TX (8RK42PA),,,1,"1,766 kg"
-,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
-,hoc-tap-van-phong,Core i5,8265U,1TB,Intel UHD Graphics 620,,,Laptop Dell Inspiron 15 5584-CXGR01,,,0,2 kg
-,hoc-tap-van-phong,Intel Core i7,8550U,256 GB,Intel UHD Graphics 620,,,LAPTOP ASUS S430UA-EB097T,,,1,1.40 kg
-,hoc-tap-van-phong,Core i5,10210U,512 GB,NVIDIA GeForce GTX 1650,,,Laptop Asus UX534FTC-A9168T,,,1,1.55 kg
-,hoc-tap-van-phong,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3119TX (9FN16PA),,,1,"1,746 kg"
-,hoc-tap-van-phong,Intel Core i5,1035G1,512 GB,Intel UHD Graphics,,,Laptop HP Pavilion 15-CS3060TX (8RJ61PA),,,1,"1,761 kg"
-,hoc-tap-van-phong,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
-,hoc-tap-van-phong,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Intel Core,i7,512 GB,,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Intel Core,i9,1 TB,,,,Macbook Pro 16.0 inch 1TB Gray (MVVK2SA/A),,,1,2.0 kg
-,hoc-tap-van-phong,Intel Core,i9,1 TB,,,,Macbook Pro 16.0 inch 1TB Silver (MVVM2SA/A),,,1,2.0 kg
-4 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,190800596.0,1.0,"Laptop ASUS ROG Strix Scar III G531GV-VAZ160T (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.6 kg)",16GB,1920 x 1080,512GB,2.6
-4 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,190800597.0,1.0,"Laptop ASUS ROG Zephyrus M GU502GU-AZ090T (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2 kg)",16GB,1920 x 1080,512GB,2.0
-3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1660Ti,190900035.0,0.0,"Laptop HP Pavilion Gaming 15-dk0003TX (7HR34PA) (15"" FHD/i7-9750H/16GB/512GB SSD/1TB HDD/GTX 1660Ti/Win10/2.2 kg)",16GB,1920 x 1080,512GB,2.2
-3 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1650,190900036.0,0.0,"Laptop HP Pavilion Gaming 15-dk0233TX (8DS86PA) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,512GB,2.2
-3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,190900037.0,0.0,"Laptop HP Pavilion Gaming 15-dk0232TX (8DS85PA) (15"" FHD/i7-9750H/8GB/1TB HDD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,,2.2
-3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,190900293.0,0.0,"Laptop Lenovo Legion Y540-17IRH (81T3001HVN) (17"" FHD/i7-9750H/8GB/128GB SSD/1TB HDD/GTX 1650/FreeDOS/2.9 kg)",8GB,1920 x 1080,128GB,2.9
-3 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,190904126.0,0.0,"Laptop Lenovo Legion Y740-15IRHG (81UH003JVN) (15"" FHD/i7-9750H/16GB/1TB SSD/RTX 2060/Win10/2.2 kg)",16GB,1920 x 1080,1TB,2.2
-4 cell,gaming,Intel Core i5,8300H,,NVIDIA GeForce GTX 1050,190904130.0,0.0,"Laptop Acer Nitro 5 AN515-52-53PC (NH.Q3MSV.00B) (15"" FHD/i5-8300H/8GB/512GB SSD/GTX 1050/Win10/2.5 kg)",8GB,1920 x 1080,512GB,2.5
-6 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce RTX 2060,191000800.0,1.0,"Laptop MSI GL65 9SEK-047VN (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.3kg)",16GB,1920 x 1080,512GB,2.3
-3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,191001275.0,0.0,"Laptop Dell G3 15 3590-N5I5518W (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.3kg)",8GB,1920 x 1080,512GB,2.3
-3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,191001276.0,0.0,"Laptop Dell G3 15 3590-N5I5517W (15"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050/Win10/2.3kg)",8GB,1920 x 1080,256GB,2.3
-3 cell,gaming,Intel Core i5 ,9300H,1TB,NVIDIA GeForce GTX 1050,191006820.0,0.0,"Laptop Lenovo Legion Y7000-81V4000AVN (15"" FHD/i5-9300H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
-3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1050,191006821.0,0.0,"Laptop Lenovo Legion Y7000-15IRH (81V4000BVN) (15"" FHD/i7-9750H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
-4 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1660Ti,191007067.0,1.0,"Laptop MSI GS65 Stealth 9SD-1409VN (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1660Ti/Win10/1.9 kg)",8GB,1920 x 1080,512GB,1.9
-3 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1050Ti,191007068.0,1.0,"Laptop MSI Thin GF75 9RCX-430VN (17"" FHD/i7-9750H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
-4 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,191007073.0,0.0,"Laptop Acer Nitro 5 AN515-54-58TJ (NH.Q5ASV.015) (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1050/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
-4 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1660Ti,191007074.0,0.0,"Laptop Acer Nitro 7 AN715-51-71F8 (NH.Q5HSV.004) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
-3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,191007075.0,1.0,"Laptop ASUS ROG Strix G G531GT-AL007T (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.4 kg)",8GB,1920 x 1080,512GB,2.4
-6 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,191100021.0,0.0,"Laptop MSI GP65 Leopard 9SD-224VN (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",16GB,1920 x 1080,512GB,2.3
-3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050Ti,191100022.0,0.0,"Laptop MSI Thin GF75 9RCX-432VN (17"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
-4 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,190800596.0,1.0,"Laptop ASUS ROG Strix Scar III G531GV-VAZ160T (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.6 kg)",16GB,1920 x 1080,512GB,2.6
-4 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,190800597.0,1.0,"Laptop ASUS ROG Zephyrus M GU502GU-AZ090T (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2 kg)",16GB,1920 x 1080,512GB,2.0
-,do-hoa,Intel Core i9,,,AMD Radeon Pro 560X,190900029.0,1.0,"Laptop Apple MacBook Pro 2019 MV932 (15"" 2880x1800/Core i9/16GB/512GB SSD/Radeon Pro 560X/macOS/1.8 kg)",16GB,2880 x 1800,512GB,1.8
-3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1660Ti,190900035.0,0.0,"Laptop HP Pavilion Gaming 15-dk0003TX (7HR34PA) (15"" FHD/i7-9750H/16GB/512GB SSD/1TB HDD/GTX 1660Ti/Win10/2.2 kg)",16GB,1920 x 1080,512GB,2.2
-3 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce GTX 1650,190900036.0,0.0,"Laptop HP Pavilion Gaming 15-dk0233TX (8DS86PA) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,512GB,2.2
-3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,190900037.0,0.0,"Laptop HP Pavilion Gaming 15-dk0232TX (8DS85PA) (15"" FHD/i7-9750H/8GB/1TB HDD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,,2.2
-3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,190900293.0,0.0,"Laptop Lenovo Legion Y540-17IRH (81T3001HVN) (17"" FHD/i7-9750H/8GB/128GB SSD/1TB HDD/GTX 1650/FreeDOS/2.9 kg)",8GB,1920 x 1080,128GB,2.9
-4 cell,do-hoa,Intel Core i7,9850H,,NVIDIA Quadro T2000,190904120.0,0.0,"Laptop HP ZBook 15 G6 (6CJ09AV) (15"" FHD/i7-9850H/16GB/256GB SSD/Quadro T2000/Free DOS/2.6 kg)",16GB,1920 x 1080,256GB,2.6
-4 cell,do-hoa,Intel Core i5,8300H,,NVIDIA GeForce GTX 1050,190904130.0,0.0,"Laptop Acer Nitro 5 AN515-52-53PC (NH.Q3MSV.00B) (15"" FHD/i5-8300H/8GB/512GB SSD/GTX 1050/Win10/2.5 kg)",8GB,1920 x 1080,512GB,2.5
-6 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce RTX 2060,191000800.0,1.0,"Laptop MSI GL65 9SEK-047VN (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.3kg)",16GB,1920 x 1080,512GB,2.3
-3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,191001275.0,0.0,"Laptop Dell G3 15 3590-N5I5518W (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.3kg)",8GB,1920 x 1080,512GB,2.3
-3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,191001276.0,0.0,"Laptop Dell G3 15 3590-N5I5517W (15"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050/Win10/2.3kg)",8GB,1920 x 1080,256GB,2.3
-3 cell,do-hoa,Intel Core i5 ,9300H,1TB,NVIDIA GeForce GTX 1050,191006820.0,0.0,"Laptop Lenovo Legion Y7000-81V4000AVN (15"" FHD/i5-9300H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
-3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1050,191006821.0,0.0,"Laptop Lenovo Legion Y7000-15IRH (81V4000BVN) (15"" FHD/i7-9750H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
-4 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1660Ti,191007067.0,1.0,"Laptop MSI GS65 Stealth 9SD-1409VN (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1660Ti/Win10/1.9 kg)",8GB,1920 x 1080,512GB,1.9
-3 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1050Ti,191007068.0,1.0,"Laptop MSI Thin GF75 9RCX-430VN (17"" FHD/i7-9750H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
-4 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,191007073.0,0.0,"Laptop Acer Nitro 5 AN515-54-58TJ (NH.Q5ASV.015) (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1050/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
-4 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1660Ti,191007074.0,0.0,"Laptop Acer Nitro 7 AN715-51-71F8 (NH.Q5HSV.004) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
-3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,191007075.0,1.0,"Laptop ASUS ROG Strix G G531GT-AL007T (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.4 kg)",8GB,1920 x 1080,512GB,2.4
-4 cell,do-hoa,Intel Core i5,10210U,,NVIDIA GeForce MX250,191007143.0,0.0,"Laptop ASUS ZenBook Duo UX481FL-BM048T (14"" FHD/i5-10210U/8GB/512GB SSD/MX250/Win10/1.6kg)",8GB,1920 x 1080,512GB,1.6
-2 cell,van-phong,Intel Core i5,8265U,,,19060251.0,0.0,"Laptop ASUS VivoBook 14 A412FA-EK224T (14"" FHD/i5-8265U/8GB/512GB SSD/UHD 620/Win10/1.4 kg)",8GB,1920 x 1080,512GB,1.4
-2 cell,van-phong,Intel Core i3,8145U,,,19070191.0,0.0,"Laptop ASUS VivoBook 14 A412FA-EK377T (14"" FHD/i3-8145U/4GB /256GB SSD/UHD 620/Win10/1.5 kg)",4GB,1920 x 1080,256GB,1.5
-2 cell,van-phong,Intel Celeron 4205U,4205U,500GB,,190800714.0,0.0,"Laptop Lenovo Ideapad S145-15IWL (81MV00F1VN) (15"" FHD/Celeron 4205U/4GB/500GB HDD/UHD 620/Free DOS/1.9 kg)",4GB,1920 x 1080,,1.9
-3 cell,van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,190900010.0,0.0,"Laptop Dell Inspiron 3580-70194511 (15"" FHD/i5-8265U/4GB/1TB HDD/Radeon 520/Win10/2.3 kg)",4GB,1920 x 1080,,2.3
-3 cell,van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,190900011.0,0.0,"Laptop Dell Inspiron 3580-70194513 (15"" FHD/i7-8565U/8GB/2TB HDD/Radeon 520/Win10/2.3 kg)",8GB,1920 x 1080,,2.3
-2 cell,van-phong,Intel Core i3,8145U,,,190900030.0,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ1170T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
-2 cell,van-phong,Intel Core i3,8145U,,,190900031.0,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ837T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
-2 cell,van-phong,Intel Core i3,8145U,,,190900032.0,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ1171T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
-2 cell,van-phong,Intel Core i3,7020U,1TB,,190900033.0,0.0,"Laptop ASUS 14 X409UA-EK092T (14"" FHD/i3-7020U/4GB/1TB HDD/HD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
-2 cell,van-phong,Intel Core i3,7020U,1TB,,190900034.0,0.0,"Laptop ASUS 14 X409UA-EK093T (14"" FHD/i3-7020U/4GB/1TB HDD/HD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
-3 cell,van-phong,Intel Core i5,8265U,1TB,,190900294.0,0.0,"Laptop HP Pavilion X360 14-dh0104TU (6ZF32PA) (14"" FHD/i5-8265U/4GB/1TB HDD/UHD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
-3 cell,van-phong,Intel Core i3,8145U,,,190900649.0,0.0,"Laptop ASUS VivoBook S13 S330FA-EY115T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
-3 cell,van-phong,Intel Core i3,8145U,,,190900650.0,0.0,"Laptop ASUS VivoBook S13 S330FA-EY113T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
-3 cell,van-phong,Intel Core i3,8145U,,,190900651.0,0.0,"Laptop ASUS VivoBook S13 S330FA-EY114T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
-3 cell,van-phong,Intel Core i3,8145U,1TB,,190900652.0,0.0,"Laptop HP Pavilion 15-cs2032TU (6YZ04PA) (15"" FHD/i3-8145U/4GB/1TB HDD/UHD 620/Win10/1.8 kg)",4GB,1920 x 1080,,1.8
-2 cell,van-phong,Intel Core i7,8565U,1TB,NVIDIA GeForce MX250,190904101.0,0.0,"Laptop ASUS VivoBook 15 A512FL-EJ165T (15"" FHD/i7-8565U/8GB/1TB HDD/MX250/Win10/1.7 kg)",8GB,1920 x 1080,,1.7
-2 cell,van-phong,Intel Core i5,8265U,,NVIDIA GeForce MX230,190904102.0,0.0,"Laptop ASUS 15 X509FJ-EJ155T (15"" FHD/i5-8265U/4GB/512GB SSD/MX230/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
-2 cell,van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,190904103.0,0.0,"Laptop ASUS 15 X509FJ-EJ153T (15"" FHD/i5-8265U/4GB/1TB HDD/MX230/Win10/1.8 kg)",4GB,1920 x 1080,,1.8
-3 cell,van-phong,Intel Core i5,8265U,,NVIDIA GeForce MX250,190904104.0,0.0,"Laptop ASUS VivoBook S15 S531FL-BQ190T (15"" FHD/i5-8265U/8GB/512GB SSD/MX250/Win10/1.7 kg)",8GB,1920 x 1080,512GB,1.7
-2 cell,van-phong,Intel Core i3,7020U,,,191000364.0,0.0,"Laptop Acer Aspire 3 A315-54K-32SD (NX.HFXSV.001) (15"" FHD/i3-7020U/4GB/256GB SSD/HD 620/Win10/1.7 kg)",4GB,1920 x 1080,256GB,1.7
+battery,category,cpu_name,cpu_type,disk,graphic,keyboard_light,name,ram,resolution,ssd,weight
+li - polymer 3 cell,laptop-gaming,intel core i7 coffee lake,9750h,,nvidia® geforce gtx™ 1650 4gb,,Asus Gaming ROG Strix G531G i7 9750H (AL017T),8 gb,,1,2.4 kg
+li-ion 3 cell,laptop-gaming,amd ryzen 7,3750h,,nvidia® geforce gtx™ 1650 4gb,,Asus Gaming TUF FX505D R7 3750H (AL003T),8 gb,,1,2.2 kg
+li-ion 3 cell,laptop-gaming,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Lenovo Ideapad L340 15IRH i5 9300H (81LK00FAVN),8 gb,,0,2.15 kg
+li-ion 3 cell,laptop-gaming,intel core i7 coffee lake,9750h,,"nvidia geforce gtx 1050, 3gb",,Lenovo IdeaPad L340 15IRH i7 9750H (81LK00VUVN),8 gb,,1,2.062 kg
+li-ion 3 cell,laptop-gaming,intel core i7 coffee lake,9750h,,"nvidia geforce gtx 1050, 3gb",,Lenovo IdeaPad L340 15IRH i7 9750H (81LK00FBVN),8 gb,,0,2.14 kg
+li - polymer 4 cell,laptop-gaming,intel core i5 coffee lake,9300h,,nvidia® geforce gtx™ 1650 4gb,,Acer Nitro AN515 54 52EZ i5 9300H (NH.Q59SV.019),8 gb,,1,2.3 kg
+li - polymer 3 cell,laptop-gaming,intel core i7 coffee lake,9750h,,geforce® gtx 1650 max-q design,,MSI Gaming 15 GF63 9SC i7 9750H (070VN),8 gb,,1,1.86 kg
+li-ion 3 cell,laptop-gaming,intel core i7 coffee lake,9750h,,"nvidia geforce gtx 1050, 4gb",,Asus Gaming ROG Strix G531GD i7 9750H (AL034T),8 gb,,1,2.40 kg
+li-ion 3 cell,laptop-gaming,intel core i5 coffee lake,8300h,,"nvidia geforce gtx 1050ti, 4gb",,Asus Gaming FX505GE i5 8300H (BQ052T),8 gb,,0,2.2 kg
+li-ion 3 cell,laptop-gaming,intel core i7 coffee lake,8750h,,"nvidia geforce gtx 1050ti, 4gb",,HP Palivion 15 cx0182TX i7 8750H (5EF46PA),8 gb,,0,2.17 kg
+li - polymer 3 cell,laptop-gaming,intel core i7 coffee lake,8750h,,"nvidia geforce gtx 1050ti, 4gb",,Lenovo Legion Y530 15 i7 8750H (81FV008LVN),8 gb,,0,2.3 kg
+li - polymer 4 cell,laptop-gaming,intel core i7 coffee lake,9750h,,nvidia® geforce gtx™ 1650 4gb,,Acer Nitro AN515 54 71HS i7 9750H (NH.Q59SV.018),8 gb,,1,2.3 kg
+li-ion 3 cell,laptop-gaming,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Lenovo IdeaPad L340 15IRH i5 9300H (81LK00VTVN),8 gb,,1,2.15 kg
+li-ion 4 cell,laptop-gaming,intel core i7 coffee lake,9750h,,"nvidia® geforce rtx™ 2060, 6gb",,Asus Gaming ROG Strix G531 i7 9750H (VAL218T),8 gb,,1,2.4 kg
+li-ion 3 cell,laptop-gaming,intel core i7 coffee lake,8750h,,"nvidia geforce gtx 1050, 4gb",,HP Palivion 15 cx0178TX i7 8750H (5EF41PA),8 gb,,0,2.17 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx110, 2gb",,Lenovo ideapad S145 15IWL i5 8265U (81MV00T9VN),8 gb,,1,1.73 kg
+khoảng 12 giờ,do-hoa-ky-thuat,intel core i5 broadwell,hãng không công bố,,intel hd graphics 6000,,MacBook Air 2017 128GB (MQD32SA/A),8 gb,,1,1.35 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,nvidia geforce mx230 2gb,,Asus VivoBook X509F i7 8565U (EJ133T),8 gb,,1,1.9 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"nvidia geforce mx110, 2gb",,Lenovo Ideapad S145 15IWL i7 8565U (81MV00TAVN),8 gb,,1,1.73 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,nvidia geforce mx230 2gb,,Asus VivoBook X509FJ i5 8265U (EJ132T),8 gb,,0,1.8 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 comet lake,10510u,,"nvidia geforce mx130, 2gb",,HP 15s du1039TX i7 10510U (8RK39PA),8 gb,,1,1.74 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8300h,,"nvidia geforce gtx 1050, 4gb",,Asus VivoBook Pro F571GD i5 8300H (BQ387T),8 gb,,1,2.14 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 comet lake,10210u,,nvidia geforce mx250 2gb,,Acer Aspire A515 54G 51J3 i5 10210U (NX.HN5SV.003),8 gb,,1,1.7 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Pavilion 14 ce2100TX i5 8265U (7YA48PA),8 gb,,0,1.59 kg
+li - polymer 2 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,nvidia geforce mx250 2gb,,Asus VivoBook A512F i5 8265U (EJ222T),8 gb,,1,1.6 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"amd radeon 520, 2gb",,Dell Vostro 3580 i7 8565U (T3RMD2),8 gb,,1,2.21 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 ice lake,1035g1,,nvidia geforce mx250 2gb,,HP Pavilion 15 cs3119TX i5 1035G1 (9FN16PA),4 gb,,1,1.755 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"amd radeon 520, 2gb",,Dell Vostro 3580 i5 8265U (P75F010V80I),4 gb,,0,2.28 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"nvidia geforce mx130, 2gb",,HP 15s du0040TX i7 8565U (6ZF62PA),8 gb,,0,1.82 kg
+li-ion 4 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8300h,,"nvidia geforce gtx 1050ti, 4gb",,Dell Inspiron 3579 i5 8300H (G5I5423W),8 gb,,1,2.35 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Pavilion 15 cs2120TX i5 8265U (8AG58PA),8 gb,,0,1.83 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 ice lake,1035g1,,nvidia geforce mx250 2gb,,HP Pavilion 15 cs3061TX i5 1035G1 (8RE83PA),8 gb,,1,1.761 kg
+li-ion 4 cell,do-hoa-ky-thuat,intel core i7 kabylake refresh,8550u,,"amd radeon 520, 2gb",,Dell Vostro 3578 i7 8550U (NGMPF11),8 gb,,0,2.2 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 comet lake,10510u,,nvidia geforce mx250 2gb,,Asus ZenBook UX434FL i7 10510U (A6173T),16 gb,,1,1.26 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 comet lake,10210u,,"nvidia geforce mx130, 2gb",,Hp 15s du1035TX i5 10210U (8RK36PA),8 gb,,1,1.744 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"amd radeon 520, 2gb",,Dell Inspiron 3580 i7 8565U (70188447),8 gb,,1,2.28 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Lenovo Ideapad L340 15IRH i5 9300H (81LK00FAVN),8 gb,,0,2.15 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S430FN i5 8265U (EB032T),8 gb,,1,1.4 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530F i7 8565U (BQ550T),8 gb,,0,1.8 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 ice lake,1065g7,,nvidia geforce mx230 2gb,,Dell Inspiron 3593 i7 1065G7 (70197459),8 gb,,1,2.28 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i5 comet lake,10210u,,nvidia geforce mx250 2gb,,Asus VivoBook A512FL i5 10210U (EJ569T),8 gb,,1,1.67 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 ice lake,1035g1,,nvidia geforce mx250 2gb,,Acer Swift 3S SF314 57G 53T1 i5 1035G1 (NX.HJESV.001),8 gb,,1,1.19kg
+li-ion 4 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce gtx 1050, 2 gb",,Asus ZenBook UX533FD i5 8265U (A9091T),8 gb,,1,1.6 kg
+khoảng 10 giờ,do-hoa-ky-thuat,intel core i5 kabylake refresh,hãng không công bố,,intel iris plus graphics 655,,MacBook Pro Touch 2018 256GB (MR9Q2SA/A),8 gb,,1,1.37 kg
+li-ion 4 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,nvidia geforce gtx 1050 max-q,,Asus ZenBook 15 UX533FD i5 8265U (A9035T),8 gb,,1,1.67 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,9750h,,"nvidia geforce gtx 1050, 3gb",,Lenovo IdeaPad L340 15IRH i7 9750H (81LK00FBVN),8 gb,,0,2.14 kg
+li-ion 2 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,nvidia geforce mx230 2gb,,Asus VivoBook X509FJ i5 8265U (EJ155T),4 gb,,1,1.8 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 ice lake,1035g1,,nvidia geforce mx230 2gb,,Dell Inspiron 5593 i5 1035G1 (N5I5513W),8 gb,,1,2.05 kg
+li - polymer 4 cell,do-hoa-ky-thuat,intel core i5 comet lake,10210u,,nvidia geforce mx250 2gb,,Asus ZenBook Duo UX481F i5 10210U/8GB/512GB/2GB MX250/Pen/Win10 (BM048T),8 gb,,1,1.57 kg
+li-ion 4 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,HP Envy 13 ah1010TU i5 8265U,8 gb,,1,1.2 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,nvidia geforce mx230 2gb,,Acer Aspire A315 55G 78Q1 i7 8565U (NX.HEDSV.003),8 gb,,1,1.8 kg
+li - polymer 4 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8250u,,"nvidia geforce mx150, 2gb",,Acer Swift 3 SF315 52G 58TE i5 8250U (NX.GZCSV.001),8 gb,,1,1.7 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,nvidia geforce mx250 2gb,,HP Pavilion 15 cs2058TX i7 8565U (6YZ12PA),8 gb,,0,1.84 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"amd radeon 520, 2gb",,Dell Inspiron 3580 i7 8565U (70194513),8 gb,,0,2.28 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Dell Inspiron 7591 i5 9300H (N5I5591W),8 gb,,1,2 kg
+li-ion 3 cell (4240mah),do-hoa-ky-thuat,intel core i7 coffee lake,8550u,,"nvidia geforce mx150, 2gb",,Asus Vivobook S530UN i7 8550U (BQ198T),8 gb,,0,1.76 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8565u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530FN i7 8565U (BQ593T),8 gb,,1,1.8 kg
+li - polymer 4 cell,do-hoa-ky-thuat,intel core i7 coffee lake,8550u,,"nvidia geforce mx150, 2gb",,Acer Swift 3 SF315 52G 87N4 i7 8550U (NX.GZCSV.005),8 gb,,1,1.7 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Lenovo IdeaPad L340 15IRH i5 9300H (81LK00VTVN),8 gb,,1,2.15 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8250u,,"nvidia geforce mx130, 2gb",,Lenovo Ideapad 530s 14IKB i5 8250U (81EU00T0VN),8 gb,,1,1.49 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,Dell Inspiron 15 5584 i5 8265U (N5I5413W),8 gb,,1,1.7 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,Dell Inspiron 15 5584 i5 8265U (N5I5353W),8 gb,,0,1.95 kg
+li-ion 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S430FN i5 8265U/8GB (EB010T),8 gb,,1,1.4 kg
+li - polymer 3 cell,do-hoa-ky-thuat,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus ZenBook 13 UX333FN i5 8265U (A4124T),8 gb,,1,1.25 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Asus VivoBook A412FA i3 8145U (EK661T),4 gb,,0,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,HP 348 G5 i3 7020U (7XJ62PA),4 gb,,1,1.42 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,Asus VivoBook X409U i3 7020U (EK205T),4 gb,,1,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel celeron,n4000,,intel® uhd graphics 600,,Asus VivoBook X507MA N4000 (BR318T),4 gb,,1,1.75 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 coffee lake,8130u,,intel® uhd graphics 620,,Acer Swift 3 SF315 52 38YQ i3 8130U (NX.GZBSV.003),4 gb,,0,1.7 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Asus VivoBook A412FA i3 8145U (EK342T),4 gb,,1,1.5 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook A412FA i5 8265U (EK343T),8 gb,,1,1.42 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook X409F i5 8265U (EK138T),8 gb,,0,1.6 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake refresh,7020u,,intel® uhd graphics 620,,Lenovo IdeaPad S145 15IKB i3 7020U (81VD0035VN),4 gb,,1,2.1 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,Asus VivoBook X509U i3 7020U (EJ063T),4 gb,,0,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,HP 15s du0056tu i3 7020U (6ZF53PA),4 gb,,0,1.74 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Asus VivoBook X409FA i3 8145U (EK306T),4 gb,,1,1.6 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel celeron,n4000,,intel® hd graphics 620,,Acer Aspire A315 34 C2H9 N4000 (NX.HE3SV.005),4 gb,,1,1.7 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 comet lake,10110u,,intel uhd graphics,,Acer Aspire A315 54 36QY i3 10110U (NX.HM2SV.001),4 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,HP 15s du0115TU i3 7020U (8VB37PA),4 gb,,1,1.74 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,nvidia geforce mx230 2gb,,Asus VivoBook X509F i7 8565U (EJ133T),8 gb,,1,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,nvidia geforce mx230 2gb,,Dell Inspiron 5593 i5 1035G1 (N5I5402W),4 gb,,1,2.05 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook A512FA i5 8265U (EJ552T),8 gb,,0,1.75 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook A412FA i5 8265U (EK662T),8 gb,,0,1.5 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel pentium,n5000,,intel® uhd graphics 620,,Acer Aspire A315 34 P3LC N5000 (NX.HE3SV.004),4 gb,,1,1.7 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,nvidia geforce mx230 2gb,,Asus VivoBook X509FJ i5 8265U (EJ132T),8 gb,,0,1.8 kg
+li - polymer 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Acer Swift 3 SF315 52 50T9 i5 8250U (NX.GZBSV.002),8 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,HP Pavilion 15 cs3014TU i5 1035G1 (8QP20PA),4 gb,,1,1.695 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,HP Pavilion 14 ce3027TU i5 1035G1 (8WJ02PA),8 gb,,1,1.6 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,"nvidia geforce mx110, 2gb",,Lenovo Ideapad S145 15IWL i3 8145U (81MV00SXVN),4 gb,,1,1.73 kg
+li-ion 3 cell,hoc-tap-van-phong,intel pentium,n5000,,intel® uhd graphics 605,,HP 15s du0058TU N5000 (6ZF55PA),4 gb,,0,1.74 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake refresh,7020u,,intel® uhd graphics 620,,Acer Aspire 3 A315 54K 30FK i3 7020U (NX.HEESV.003),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Pavilion 15 cs2034TU i5 8265U (6YZ06PA),4 gb,,0,1.75 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 3580 i5 8265U (T3RMD1),4 gb,,0,2.1 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 ice lake,1005g1,,intel uhd graphics,,Dell Inspiron 5593 i3 1005G1 (70196703),4 gb,,1,2.05 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,nvidia geforce mx230 2gb,,Asus VivoBook X509FJ i3 8145U (EJ227T),4 gb,,0,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel pentium,n5000,,intel® hd graphics,,Asus VivoBook X441MA N5000 (GA024T),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Pavilon 14 ce2035tu i3 8145U (6YZ18PA),4 gb,,0,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,nvidia geforce mx250 2gb,,Acer Aspire A515 54G 51J3 i5 10210U (NX.HN5SV.003),8 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,HP 15s du0054tu i3 7020U (6ZF60PA),4 gb,,0,1.74 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"amd radeon 520, 2gb",,Dell Inspiron 3580 i5 8265U (70184569),4 gb,,0,2.28 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,HP Pavilion 15 cs3012TU i5 1035G1/8GB/512GB/Win10 (8QP30PA),8 gb,,1,1.695 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel uhd graphics,,Dell Vostro 5490 i5 10210U (V4I5106W),8 gb,,1,1.49 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 ice lake,1005g1,,intel uhd graphics,,Lenovo IdeaPad S340 14IIL i3 1005G1 (81VV003VVN),8 gb,,1,1.6 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,"nvidia geforce mx110, 2gb",,HP 15s du0042TX i3 7020U (6ZF75PA),4 gb,,0,1.74 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel® uhd graphics 620,,Acer Aspire A515 54 54EU i5 10210U (NX.HN3SV.002),8 gb,,1,1.7 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Aspire A315 54 558R i5 8265U (NX.HEFSV.005),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP 15s du0063TU i5 8265U (6ZF63PA),4 gb,,0,1.74 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,nvidia geforce mx250 2gb,,Asus VivoBook A512F i5 8265U (EJ222T),8 gb,,1,1.6 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Aspire 3 A315 54 57PJ i5 8265U (NX.HEFSV.004),4 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Asus VivoBook S530FA i3 8145U (BQ185T),4 gb,,0,1.8 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel® uhd graphics 620,,Acer Aspire A315 54 52HT i5 10210U (NX.HM2SV.002),4 gb,,1,1.7 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake refresh,8130u,,intel® uhd graphics 620,,Dell Inspiron 3576 i3 8130U (P63F002N76B),4 gb,,0,2.3 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Lenovo ideapad C340 14IWL i5 8265U (81N4003TVN),8 gb,,1,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,nvidia geforce mx250 2gb,,HP Pavilion 15 cs3119TX i5 1035G1 (9FN16PA),4 gb,,1,1.755 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel uhd graphics,,Acer Aspire A315 54 59ZJ i5 10210U (NX.HM2SV.005),8 gb,,1,1.7 kg
+li-ion 2 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,Asus VivoBook D409DA R3 3200U (EK118T),4 gb,,1,1.6 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,Acer Aspire A315 54K 36QU i3 7020U (NX.HEESV.007),4 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel pentium,n4417u,,intel® hd graphics,,HP 15 da0359TU N4417 (6KD00PA),4 gb,,0,1.77 kg
+li - polymer 3 cell,hoc-tap-van-phong,intel pentium,n5000,,intel® uhd graphics 605,,Acer Swift 1 SF114 32 P2SG N5000 (NX.GZJSV.001),4 gb,,0,1.3 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,Lenovo IdeaPad S340 14IIL i5 1035G1 (81VV003SVN),8 gb,,1,1.6 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Lenovo ideapad C340 14IWL i3 8145U (81N4003SVN),8 gb,,1,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Palivion X360 14 dh0104TU i5 8265U (6ZF32PA),4 gb,,0,1.607 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Dell Vostro 3580 i3 8145U (V5I3058W),4 gb,,0,2.16 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Acer Swift 3 SF314 56 38UE i3 8145U (NX.H4CSV.005),4 gb,,1,1.45 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Palivion 14 ce2039TU i5 8265U (6YZ15PA),4 gb,,0,1.59 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Inspiron N3580 i5 8265U (P75F106N80I),4 gb,,0,2.28 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Lenovo Ideapad S540 15IWL i5 8265U (81NE009FVN),8 gb,,1,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP 15s du0070TX i5 8265U (8AG62PA),8 gb,,0,1.82 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,Dell Vostro 3468 i3 7020U (70161069),4 gb,,0,1.76 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Dell Inspiron 3480 i3 8145U (NT4X01),4 gb,,0,1.72 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 ice lake,1005g1,,intel uhd graphics,,Lenovo IdeaPad S145 15IIL i3 1005G1 (81W8001XVN),4 gb,,1,1.79kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Lenovo Ideapad S340 14IWL i3 8145U (81N70064VN),8 gb,,0,1.55 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,nvidia geforce mx230 2gb,,Lenovo Ideapad S340 14IWL i5 8265U (81N7006HVN),8 gb,,0,1.55 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Pavilion x360 dh0103TU i3 8145U (6ZF24PA),4 gb,,0,1.65 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,"nvidia geforce mx110, 2gb",,HP 15 da0443TX i3 7020U (5SL06PA),4 gb,,0,1.77 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,"amd radeon 530, 2 gb",,Dell Inspiron 5570 i5 8250U (M5I5238W),4 gb,,0,2.3 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,HP 15 da0054TU i3 7020U (4ME68PA),4 gb,,0,1.77 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,Dell Vostro 3568 i3 7020U (VTI32072W),4 gb,,0,2.18 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Palivion 15 cs2032TU i3 8145U (6YZ04PA),4 gb,,0,1.75 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Pavilion 14 ce1011TU i3 8145U (5JN17PA),4 gb,,0,1.53 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel uhd graphics,,Dell Vostro 3590 i5 10210U (GRMGK1),4 gb,,0,1.99 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook S530FA i5 8265U (BQ400T),8 gb,,0,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,"nvidia geforce mx130, 2gb",,Hp 15s du1035TX i5 10210U (8RK36PA),8 gb,,1,1.744 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake refresh,8130u,,intel® uhd graphics 620,,Dell Inspiron 3476 i3 8130U (8J61P11),4 gb,,0,1.97 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Pavilion 15 cs1044TX i5 8265U (5JL26PA),4 gb,,0,1.87 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 comet lake,10110u,,intel uhd graphics,,Lenovo IdeaPad C340 14IML i3 10110U (81TK007PVN),8 gb,,1,1.59 kg
+li-ion 2 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,Asus VivoBook D409D R3 3200U (EK119T),4 gb,,1,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 comet lake,10110u,,intel uhd graphics,,Dell Vostro 3590 i3 10110U (V5I3505W),4 gb,,0,2.17 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,intel® uhd graphics 620,,Acer Aspire A514 52 516K i5 10210U (NX.HMHSV.002),4 gb,,1,1.6 kg
+polymer 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,Dell Inspiron 3493 i5 1035G1 (N4I5136W),4 gb,,0,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Pavilion 15 cs2057TX i5 8265U 6YZ20PA),4 gb,,0,1.75 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,"amd radeon 520, 2gb",,Dell Inspiron 3576 i5 8250U (70157552),4 gb,,0,2.3 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,"amd radeon 520, 2gb",,Dell Vostro 3578 i5 8250U (P63F002V78B),4 gb,,0,2.2 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,HP 14 ck0068TU i3 7020U (4ME90PA),4 gb,,0,1.56 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,7020u,,intel® uhd graphics 620,,Dell Inspiron 3581 i3 7020U (P75F005N81A),4 gb,,0,2.28 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,Dell Inspiron 5584 i5 8265U (N5I5384W),4 gb,,0,1.95kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S430FN i5 8265U (EB032T),8 gb,,1,1.4 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530F i7 8565U (BQ550T),8 gb,,0,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 ice lake,1065g7,,nvidia geforce mx230 2gb,,Dell Inspiron 3593 i7 1065G7 (70197459),8 gb,,1,2.28 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,"amd radeon 520, 2gb",,Dell Inspiron 3576 i3 7020U (C5I3133W),4 gb,,0,2.3 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7130u,,intel® hd graphics 620,,Acer Spin 3 SP314 51 39WK i3 7130U (NX.GUWSV.001),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Palivion 14 ce2041TU i5 8265U (6ZT94PA),4 gb,,0,1.59 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Probook 430 G6 i5 8265U (6UX78PA),4 gb,,1,1.45 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Dell Inspiron 5584 i3 8145U (70186849),4 gb,,0,2.05 kg
+li-ion 2 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,Acer Aspire A315 42 R8PX R3 3200U (NX.HF9SV.00A),8 gb,,1,1.7kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i3 kabylake,7130u,,intel® uhd graphics 620,,Acer Switch 5 SW512 52P 34RS i3 7130U (NT.LDTSV.004),4 gb,,1,0.92 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 comet lake,10210u,,nvidia geforce mx250 2gb,,Asus VivoBook A512FL i5 10210U (EJ569T),8 gb,,1,1.67 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,Lenovo IdeaPad S145 15IIL i5 1035G1 (81W80021VN),8 gb,,1,1.79kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 ice lake,1005g1,,intel uhd graphics,,Lenovo IdeaPad S340 15IIL i3 1005G1 (81VW0042VN),8 gb,,1,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,"amd radeon 520, 2gb",,Dell Inspiron 3581 i3 7020U (N5I3150W),4 gb,,0,2.18 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,intel® uhd graphics 620,,Dell Inspiron 5482 i7 8565U (C4TI7007W),8 gb,,1,1.86 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 5581 i5 8265U (70175950),4 gb,,0,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Dell Inspiron 14 5480 i5 8265U (X6C891),4 gb,,1,1.9 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,intel® uhd graphics 620,,Asus VivoBook S14 S431 i7 8565U (EB131T),8 gb,,0,1.4 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530FN i5 8265U (BQ128T),4 gb,,0,1.76 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,Asus VivoBook X407UA i3 7020U (BV351T),4 gb,,0,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Pavilion x360 cd1018TU i3 8145U (5HV88PA),4 gb,,0,1.66 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,intel® hd graphics 620,,Lenovo Ideapad 330 15IKBR i5 8250U (81DE01KWVN),4 gb,,0,2.2 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,Dell Vostro 5581 i5 8265U (VRF6J1),4 gb,,0,1.91 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,intel uhd graphics,,Dell Inspiron 5593 i5 1035G1 (7WGNV1),8 gb,,1,2.05 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Swift 3 SF314 56 50AZ i5 8265U (NX.H4CSV.008),8 gb,,1,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Dell Vostro 3480 i3 8145U (70187706),4 gb,,0,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Inspiron 5584 i5 8265U (CXGR01),8 gb,,0,2.025 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,intel® uhd graphics 620,,HP Envy 13 aq0027TU i7 8565U (6ZF43PA),8 gb,,1,1.26 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Pavilion 14 ce2038TU i5 8265U (6YZ21PA),4 gb,,0,1.59 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,Asus VivoBook S430FA i5 8265U (EB075T),4 gb,,0,1.4 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g1,,nvidia geforce mx230 2gb,,Dell Inspiron 5593 i5 1035G1 (N5I5513W),8 gb,,1,2.05 kg
+li - polymer 4 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,Acer Swift 3 SF314 41 R4J1 R3 3200U (NX.HFDSV.001),4 gb,,1,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Inspiron 14 3480 i5 8265U (N4I5107W),4 gb,,0,1.66 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,intel® uhd graphics 620,,Lenovo Ideapad 530S 14IKB i7 8550U (81EU00P5VN),8 gb,,1,1.54 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake refresh,7020u,,intel® uhd graphics 620,,Asus Vivobook 14 X407UA i3 7020U (BV345T),4 gb,,0,1.55 kg
+li-ion 2 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,Acer Aspire 3 A315 42 R2NS R3 3200U (NX.HF9SV.005),4 gb,,1,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,HP Pavilion 14 ce1018TU i5 8265U (5RL41PA),4 gb,,0,1.59 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP 15s du0107TU i5 8265U (8EC94PA),8 gb,,1,1.69 kg
+li - polymer 4 cell,hoc-tap-van-phong,intel core i3 kabylake,7130u,,intel® uhd graphics 620,,Lenovo Ideapad YOGA 530 14IKB i3 7130U (81EK00MDVN),4 gb,,1,1.6 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 comet lake,10110u,,intel® uhd graphics 620,,Acer Aspire A514 52 33AB i3 10110U (NX.HMHSV.001),4 gb,,1,1.5 kg
+3705mah - li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® hd graphics 620,,Asus VivoBook X507UA i3 7020U (EJ727T),4 gb,,0,1.68 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Aspire A515 53 5112 i5 8265U (NX.H6DSV.002),4 gb,,0,2.0 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Acer Spin SP513 52N 556V i5 8250U (NX.GR7SV.004),8 gb,,1,1.56 kg
+li - polymer 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Aspire A515 54 59KT i5 8265U (NX.HFNSV.009),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Pavilion 15 cs055TX i5 8265U (6ZF22PA),4 gb,,1,1.82 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Swift 3 SF314 56 596E i5 8265U (NX.H4CSV.006),4 gb,,1,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,HP 15 da1023TU i5 8265U (5NK81PA),4 gb,,0,2.07 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Acer Spin SP314-51-51LE i5 8250U (NX.GZRSV.002),4 gb,,1,1.7 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,intel® uhd graphics 620,,HP Envy 13 ah1012TU i7 8565U (5HZ19PA),8 gb,,1,1.28 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx110, 2gb",,Asus VivoBook X507UB i7 8550U (BR354T),4 gb,,0,1.8 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Lenovo IdeaPad 330 15IKB i5 8250U (81DE024CVN),4 gb,,0,2.2 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 kabylake,7020u,,intel® uhd graphics 620,,Dell Vostro 14 3481 i3 7020U (70187645),4 gb,,0,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,"nvidia geforce mx130, 2gb",,HP 15 da1033TX i7 8565U (5NK26PA),4 gb,,0,2.07 kg
+li-ion 3 cell,hoc-tap-van-phong,intel pentium,n5000,,intel® uhd graphics 605,,Acer Swift 1 SF114 32 P8TS N5000 (NX.GXQSV.001),4 gb,,0,1.3 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx130, 2gb",,HP Palivion 15 cs2056TX i5 8265U (6YZ11PA),4 gb,,0,1.82 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,HP Palivion 15 cs2031TU i3 8145U (6YZ03PA),4 gb,,0,1.75 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Asus VivoBook S430FA i3 8145U (EB459T),4 gb,,1,1.54 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx150, 2gb",,Asus ZenBook 14 UX433FN i5 8265U (A6124T),8 gb,,1,1.19 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx130, 2gb",,Asus Vivobook 15 X507UF i7 8550U (EJ074T),4 gb,,0,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 3480 i5 8265U (70187708),8 gb,,0,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx130, 2gb",,Asus VivoBook X507UF i7 8550U (EJ079T),4 gb,,0,1.68 kg
+li-ion 3 cell (4240mah),hoc-tap-van-phong,intel core i5 coffee lake,8250u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530UN i5 8250U (BQ263T),4 gb,,0,1.8 kg kèm pin
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,9300h,,"nvidia geforce gtx 1050, 3gb",,Dell Inspiron 7591 i5 9300H (N5I5591W),8 gb,,1,2 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,intel® uhd graphics 620,,Acer Aspire E5 476 50SZ i5 8250U (NX.H33SV.001),4 gb,,0,1.85 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8130u,,"nvidia geforce mx130, 2gb",,Asus VivoBook X507UF i3 8130U (EJ117T),4 gb,,0,1.68 kg
+li-ion 3 cell,hoc-tap-van-phong,amd ryzen 3,3200u,,amd radeon™ vega 3 graphics,,HP 14s dk0097au R3 3200U (7VH92PA),4 gb,,0,"1,47 kg"
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 5370 i5 8250U (7M6D51),4 gb,,1,2.0 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530FN i7 8565U (BQ593T),8 gb,,1,1.8 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,intel® hd graphics 620,,Acer Swift 3 SF314 54 51QL i5 8250U (NX.GXZSV.001),4 gb,,0,1.5 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Probook 13 i5 8265U (5YM98PA),4 gb,,0,1.52 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 ice lake,1035g4,,intel® iris® plus graphics,,Lenovo IdeaPad S340 15IIL i5 1035G4 (81VW00A8VN),8 gb,,1,1.79 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Aspire A514 51 58ZJ i5 8265U (NX.H6XSV.001),4 gb,,0,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 ice lake,1065g7,,intel® iris® plus graphics,,Lenovo IdeaPad S340 15IIL i7 1065G7 (81VW007AVN),8 gb,,1,1.79 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i7 coffee lake,8565u,,nvidia geforce mx250 2gb,,HP Envy 13 aq0032TX i7 8565U (6ZF26PA),8 gb,,1,1.26 kg
+li-ion 3 cell (4240mah),hoc-tap-van-phong,intel core i5 coffee lake,8250u,,"nvidia geforce mx150, 2gb",,Asus VivoBook S530UN i5 8250U (BQ255T),4 gb,,1,1.76 kg kèm pin
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx110, 2gb",,Asus VivoBook X407UB i7 8550U (BV147T),4 gb,,0,1.54 kg
+li - polymer 2 cell,hoc-tap-van-phong,intel core i3 coffee lake,8145u,,intel® uhd graphics 620,,Acer Aspire A514 51 37ZD i3 8145 (NX.H6USV.003),4 gb,,0,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Palivion 15 cs2033TU i5 8265U (6YZ14PA),4 gb,,0,1.75 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 kabylake refresh,8250u,,"nvidia geforce mx130, 2gb",,Acer Aspire E5 576G 52YQ i5 8250U (NX.GWNSV.001),4 gb,,0,2.23 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 5581 i5 8265U (70175957),8 gb,,0,1.9 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Asus VivoBook S530UA i5 8250U (BQ278T),4 gb,,0,1.8 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 14 5481 i5 8265U (V4I5229W),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Palivion 15 cs2035TU i5 8265U (6YZ08PA),4 gb,,1,1.59 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,Asus VivoBook S430FA i5 8265U (EB074T),4 gb,,0,1.4 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i3 coffee lake,8130u,,intel® uhd graphics 620,,Dell Inspiron 13 5370 i3 8130U (N3I3002W),4 gb,,1,1.38 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Acer Swift 3 SF313 51 56UW i5 8250U (NX.H3ZSV.002),8 gb,,1,1.35 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx130, 2gb",,Acer Aspire E5 576G 88EP i7 8550U (NX.H2ESV.001),4 gb,,0,2.23 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus ZenBook 14 UX433FA i5 8265U (A6113T),8 gb,,1,1.19 kg
+li-ion 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,HP Envy 13 aq0025TU i5 8265U (6ZF33PA),8 gb,,1,1.26 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® hd graphics 620,,Asus Vivobook S430FA i5 8265U (EB253T),4 gb,,1,1.4 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Dell Vostro 14 3480 i5 8265U (70187647),4 gb,,0,1.79 kg
+li - polymer 4 cell,hoc-tap-van-phong,intel core i5 coffee lake,8250u,,intel® uhd graphics 620,,Acer Swift 3 SF315 51 54H0 i5 8250U (NX.GSKSV.004),4 gb,,0,1.7 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i7 coffee lake,8550u,,"nvidia geforce mx130, 2gb",,Asus VivoBook X407UF i7 8550U (BV022T),4 gb,,0,1.54 kg
+li-ion 2 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,intel® uhd graphics 620,,Asus VivoBook A512FA i5 8265U (EJ202T),8 gb,,0,1.75 kg
+li-ion 3 cell,hoc-tap-van-phong,intel core i5 coffee lake,8265u,,"nvidia geforce mx110, 2gb",,HP 15 da1031TX i5 8265U (5NK55PA),4 gb,,0,1.77 kg
+li - polymer 4 cell,hoc-tap-van-phong,amd ryzen 5,3500u,,amd radeon™ vega 3 graphics,,Acer Swift 3 SF314 41 R8VS R5 3500U (NX.HFDSV.002),4 gb,,1,1.5 kg
+,laptop-gaming,Intel Core i7,8565U,256GB,AMD Radeon 520,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
+,laptop-gaming,Intel Core i7,9750H,256 GB,GeForce GTX 1050Ti 4GB,,Laptop MSI GF75 9RCX-430VN,,,1,2.2 kg
+,laptop-gaming,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS S430FA-EB074T VÀNG,,,0,1.4 kg
+,laptop-gaming,Intel Core i5,9300H,,NVIDIA GeForce GTX 1050Ti 4GB GDDR5 + Intel UHD Graphics 620,,Laptop MSI GF63 9RCX - 646VN,,,1,2.3 kg
+,laptop-gaming,Intel Core i7,8550U,,NVIDIA GeForce MX130,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
+,laptop-gaming,Intel Core i7,9750H,256 GB,NVIDIA GeForce GTX 1650,,LAPTOP MSI GF63 9SC-070VN,,,1,1.9 kg
+,laptop-gaming,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
+,laptop-gaming,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
+,laptop-gaming,AMD Ryzen™ 7,3750H,512 GB,NVIDIA GeForce® GTX 1660Ti,,Laptop Asus FX505DU-AL070T,,,1,2.2 kg
+,laptop-gaming,Core i5,9300H,1TB,NVIDIA GeForce GTX 1650 GDDR5,,Laptop HP Pavilion Gaming 15 DK0001TX (7HR11PA),,,0,2.23 kg
+,laptop-gaming,Intel Core i7,9750H,512GB,Nvidia GTX 1050Ti + UHD 630,,Laptop MSI GF63 9RCX-645VN I7/8/512/4G/VX,,,1,2.3 kg
+,laptop-gaming,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,LAPTOP DELL V5481 (P92G001V81A),,,0,1.55 kg
+,laptop-gaming,Intel Core i7,8565U,1TB,MX250,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
+,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
+,laptop-gaming,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
+,laptop-gaming,Intel Core i7,9750H,1TB,GTX 1050,,LAPTOP LENOVO L340-15IRH (81LK007JVN),,,0,2.2 kg
+,laptop-gaming,Intel Core i5,8300H,1TB + 128GB,Nividia GTX 1050,,LAPTOP LENOVO LEGION Y530-15ICH (81FV00STVN),,,1,2.3 kg
+,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050Ti,,LAPTOP ASUS FX505GE-BQ052T,,,0,2.2 kg
+,laptop-gaming,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
+,laptop-gaming,Intel Core i7,8550U,1TB,AMD Radeon 520,,LAPTOP DELL INSPIRON 14 3476 70181694,,,0,1.95 kg
+,laptop-gaming,Intel Core i5,9300H,1TB,GTX 1050,,LAPTOP LENOVO L340-15IRH (81LK007HVN),,,0,2.2 kg
+,laptop-gaming,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050,,LAPTOP ACER NITRO 5 AN515-52-51GF NH.Q3MSV.001,,,0,2.45 kg
+,laptop-gaming,Intel Core i5,9300H,512 GB,NVIDIA GeForce GTX 1050,,Laptop Asus G531GD (AL025T),,,1,2.395 kg
+,laptop-gaming,Core i5,9300H,512GB,NVIDIA,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
+,laptop-gaming,i7,9750H,256GB,NVIDIA GeForce GTX 1050,,Laptop Dell Inspiron 15 7591 KJ2G41,,,1,1.8 kg
+,laptop-gaming,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
+,laptop-gaming,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
+,do-hoa-ky-thuat,Intel Core i7,8565U,,AMD M520,,Laptop Dell Inspiron 3480 (N4I7116W),,,0,1.79 kg
+,do-hoa-ky-thuat,Core i5,8250U,,Intel UHD Graphics 620,,Laptop HP NoteBook 14S-CF1040TU (7PU14PA),,,0,
+,do-hoa-ky-thuat,Core i5,8265U,512GB,Intel UHD Graphics 620,,LAPTOP ASUS X509FA-EJ203T,,,1,1.9 kg
+,do-hoa-ky-thuat,Core i5,8265U,,ntel HD Graphics 620,,Laptop Dell Vostro 3580 (T3RMD1),,,0,2.2 kg
+,do-hoa-ky-thuat,Intel Core i7,8565U,256GB,AMD Radeon 520,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
+,do-hoa-ky-thuat,AMD Ryzen™ 7,3700U,256 GB,Vega 10,,LAPTOP HP ENVY X360 (6ZF34PA),,,1,1.3 kg
+,do-hoa-ky-thuat,Core i5,8265U,1TB,NVIDIA GeForce MX130,,Laptop HP 15S-DU0038TX,,,0,
+,do-hoa-ky-thuat,Intel Core i3,7020U,,Intel HD Graphics 620,,Laptop Dell Inspiron 3481 (030CX1),,,0,1.7 kg
+,do-hoa-ky-thuat,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,Laptop HP Pavilion 14 CE2034TU (6YZ17PA),,,0,
+,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX130,,Laptop Asus X507UF-EJ079T,,,0,1.5 kg
+,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX110,,LAPTOP ASUS X407U - BV147T,,,0,1.52 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS S430FA-EB074T VÀNG,,,0,1.4 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX250,,Laptop Asus A512FL (EJ163T),,,0,1.7 kg
+,do-hoa-ky-thuat,Intel Core i7,8565U,1TB,NVIDIA GeForce MX250,,Laptop Asus A512FL- EJ165T,,,0,1.7 kg
+,do-hoa-ky-thuat,Intel Core i5,9300H,,NVIDIA GeForce GTX 1050Ti 4GB GDDR5 + Intel UHD Graphics 620,,Laptop MSI GF63 9RCX - 646VN,,,1,2.3 kg
+,do-hoa-ky-thuat,Intel Core i7,8550U,,NVIDIA GeForce MX130,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
+,do-hoa-ky-thuat,Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop Asus X509FA-EJ201T,,,0,1.9 kg
+,do-hoa-ky-thuat,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,LAPTOP HP ENVY X360 (6ZF30PA),,,1,1.3 kg
+,do-hoa-ky-thuat,Intel Core i7,9750H,256 GB,NVIDIA GeForce GTX 1650,,LAPTOP MSI GF63 9SC-070VN,,,1,1.9 kg
+,do-hoa-ky-thuat,Intel Core i3,10110U,1 TB,Intel UHD Graphics,,Laptop Dell Vostro 3590 V5I3505W,,,0,
+,do-hoa-ky-thuat,Core i5,8265U,1 TB,NVIDIA GeForce MX230 2GB GDDR5,,Laptop Asus X509F-EJ153T,,,0,1.8 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,MX130,,Laptop HP Pavilion 15 CS2057TX (6YZ20PA) Xám,,,0,1.85 kg
+,do-hoa-ky-thuat,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
+,do-hoa-ky-thuat,AMD Ryzen™ 3,3200U,256 GB,AMD Radeon™ Vega 3 Graphics,,Laptop Acer Aspire A315-42-R8PX,,,1,
+,do-hoa-ky-thuat,Intel Core i7,8265U,512 GB,NVIDIA GeForce MX230,,Laptop Asus X409FJ-EK137T,,,1,1.6 kg
+,do-hoa-ky-thuat,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
+,do-hoa-ky-thuat,Core i5,8250U,256 GB,AMD Radeon 530,,Laptop Dell Vostro 5370 (V5370B),,,1,
+,do-hoa-ky-thuat,Core i5,10210U,256 GB,Intel UHD Graphics 620,,Laptop Acer Aspire A315-54-52HT,,,1,
+,do-hoa-ky-thuat,Core i5,10210U,512 PCie,Intel UHD Graphics,,Laptop Acer Aspire A315-54-59ZJ,,,1,
+,do-hoa-ky-thuat,Core i5,9300H,1TB,NVIDIA GeForce GTX 1650 GDDR5,,Laptop HP Pavilion Gaming 15 DK0001TX (7HR11PA),,,0,2.23 kg
+,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,UHD Intel® 620,,LAPTOP LENOVO IDEAPAD 330-14IKBR 81G2007BVN,,,0,2.1 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop HP 14 CK1004TU (5QH84PA),,,0,1.47 kg
+,do-hoa-ky-thuat,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,LAPTOP HP ENVY 13-AQ0027TU (6ZF43PA),,,1,1.18 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX 130,,LAPTOP HP PAVILION 15-CS2056TX,,,0,
+,do-hoa-ky-thuat,Intel Core i3,7020U,1TB,Intel® HD Graphics 620,,Laptop Dell Inspiron N3567,,,0,
+,do-hoa-ky-thuat,AMD Ryzen™ 7,2700U,256GB PCie,,,Laptop HP ProBook 455 G6 6XA63PA,,,1,2.0 kg
+,do-hoa-ky-thuat,Intel Core i5,10210U,1TB,AMD 610 GDDR5,,Laptop Dell Vostro V3590A (P75F010N90A),,,0,
+,do-hoa-ky-thuat,Core i5,10210U,512 GB,,,Laptop HP 15S-DU1037TX (8RK37PA),,,1,1.74 kg
+,do-hoa-ky-thuat,Intel Core i7,10510U,512 GB,,,Laptop HP 15S-DU1040TX (8RE77PA),,,1,1.74 kg
+,do-hoa-ky-thuat,Intel Core i7,9750H,512GB,Nvidia GTX 1050Ti + UHD 630,,Laptop MSI GF63 9RCX-645VN I7/8/512/4G/VX,,,1,2.3 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,LAPTOP DELL V5481 (P92G001V81A),,,0,1.55 kg
+,do-hoa-ky-thuat,Intel Core i3,7200U,1TB,Intel HD Graphics 620,,LAPTOP ACER ASPIRE A315-325E (NX.GNPSV.037),,,0,1.91 kg
+,do-hoa-ky-thuat,AMD Ryzen™ 5,3500U,512 GB,Radeon™ Vega 8 Graphics,,Laptop Asus UM462DA- AI091T,,,1,1.6 kg
+,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,NVIDIA GeForce MX150,,LAPTOP ASUS VIVOBOOK S15 S530UN-BQ198T,,,0,1.79 kg
+,do-hoa-ky-thuat,Intel Core i7,8565U,1TB,MX250,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
+,do-hoa-ky-thuat,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GREY (MV962SA/A),,,1,1.37 kg
+,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
+,do-hoa-ky-thuat,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
+,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
+,do-hoa-ky-thuat,AMD Ryzen™ 7,3750H,512 GB,Intel UHD Graphics 620,,LAPTOP ASUS FX505D-AL003T,,,1,2.2 kg
+,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,Intel® UHD Graphics 620,,LAPTOP ASUS VIVO BOOK S530UA-BQ278T,,,0,1.44 kg
+,do-hoa-ky-thuat,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MV992SA/A),,,1,1.37 kg
+,do-hoa-ky-thuat,Intel Core i3,8145U,512GB,Intel UHD Graphics 620,,Laptop Asus A412F-EK223T,,,1,
+,do-hoa-ky-thuat,Core i5,1035G1,256GB,NVIDIA,,Laptop Dell Inspiron 15 5000 5593 N5I5513W,,,1,
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,LAPTOP DELL INSPIRON 5584 - N5I5384W-BẠC,,,0,1.95 kg
+,do-hoa-ky-thuat,Intel Core i5,9300H,1TB,GTX 1050,,LAPTOP LENOVO L340-15IRH (81LK007HVN),,,0,2.2 kg
+,do-hoa-ky-thuat,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
+,do-hoa-ky-thuat,Intel Core i3,8130U,256 GB,Intel UHD Graphics 620,,LAPTOP ASUS VIVOBOOK S530UA - BQ177T,,,1,1.6 kg
+,do-hoa-ky-thuat,Intel Core i7,8565U,2TB,AMD Radeon 520,,LAPTOP DELL INSPIRON 3580 (70188451),,,0,2.19 kg
+,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050Ti,,LAPTOP ASUS FX505GE-BQ052T,,,0,2.2 kg
+,do-hoa-ky-thuat,Intel Core i7,8550U,1TB,AMD Radeon 520,,LAPTOP DELL INSPIRON 14 3476 70181694,,,0,1.95 kg
+,do-hoa-ky-thuat,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,,LAPTOP ASUS X509FJ- EJ053T,,,0,1.8 kg
+,do-hoa-ky-thuat,Intel Core i5,8300H,1TB,NVIDIA GeForce GTX 1050,,LAPTOP ACER NITRO 5 AN515-52-51GF NH.Q3MSV.001,,,0,2.45 kg
+,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,Intel UHD Graphics 620,,LAPTOP ACER SPIN 3 SP314-51(NX.GUWSV.004),,,0,1.7 kg
+,do-hoa-ky-thuat,Core i5,9300H,256GB,VGA NVIDIA,,Laptop Dell Inspiron 7591-N5I5591W,,,1,
+,do-hoa-ky-thuat,i7,9750H,256GB,NVIDIA GeForce GTX 1050,,Laptop Dell Inspiron 15 7591 KJ2G41,,,1,1.8 kg
+,do-hoa-ky-thuat,Core i5,9300H,512GB,NVIDIA,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
+,do-hoa-ky-thuat,Intel Core i5,8250U,1TB,NVIDIA GeForce MX110,,LAPTOP ASUS X407U - BV145T,,,0,1.52 kg
+,do-hoa-ky-thuat,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
+,do-hoa-ky-thuat,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3119TX (9FN16PA),,,1,"1,746 kg"
+,do-hoa-ky-thuat,Intel Core i7,8550U,256 GB,Intel UHD Graphics 620,,LAPTOP ASUS S430UA-EB097T,,,1,1.40 kg
+,do-hoa-ky-thuat,Intel Core i5,1035G1,512 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3060TX (8RJ61PA),,,1,"1,761 kg"
+,do-hoa-ky-thuat,,,512 GB,NVIDIA GeForce MX250,,Laptop HP Pavilion 15-CS3063TX (8RK42PA),,,1,"1,766 kg"
+,do-hoa-ky-thuat,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3116TX (9AV24PA),,,1,"1,755 kg"
+,do-hoa-ky-thuat,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
+,do-hoa-ky-thuat,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
+,do-hoa-ky-thuat,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
+,do-hoa-ky-thuat,Intel Core,i9,1 TB,,,Macbook Pro 16.0 inch 1TB Gray (MVVK2SA/A),,,1,2.0 kg
+,do-hoa-ky-thuat,Intel Core,i9,1 TB,,,Macbook Pro 16.0 inch 1TB Silver (MVVM2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Core i5,8250U,,Intel UHD Graphics 620,,Laptop HP NoteBook 14S-CF1040TU (7PU14PA),,,0,
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,Laptop HP 348 G5 (7XU21PA),,,1,1.48 kg
+,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,LAPTOP ASUS X509FA-EJ203T,,,1,1.9 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,Laptop Acer Aspire A515-53G-564C (NX.H82SV.001),,,0,2.072 kg
+,hoc-tap-van-phong,Intel Core i3,7130U,500 GB,Intel HD Graphics 620,,Laptop Lenovo Ideapad 330-15IKB 81DC00ENVN,,,0,1.8 kg
+,hoc-tap-van-phong,Core i5,8265U,,ntel HD Graphics 620,,Laptop Dell Vostro 3580 (T3RMD1),,,0,2.2 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,Máy tính xách tay Dell Vostro 5581 (70175950),,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,256GB,AMD Radeon 520,,Laptop Dell Vostro 3580 (T3RMD2),,,1,2.21 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,,Laptop Dell Inspiron 3580 (70194513),,,0,2.19 kg
+,hoc-tap-van-phong,AMD Ryzen™ 5,2500U,1TB,AMD Radeon Vega 8 Graphics,,LAPTOP ASUS X505ZA-EJ505T,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,Laptop Dell Vostro 3480 (70187706),,,0,1.8 kg
+,hoc-tap-van-phong,AMD Ryzen™ 7,3700U,256 GB,Vega 10,,LAPTOP HP ENVY X360 (6ZF34PA),,,1,1.3 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel UHD Graphics 620,,LAPTOP DELL VOSTRO 15 3578 (NGMPF22),,,0,2.2 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX130,,Laptop Asus X507UF-EJ078T,,,0,1.68 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,Laptop Asus X509FA-EJ103T,,,1,1.8 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,,Intel HD Graphics 620,,Laptop Dell Inspiron 3481 (030CX1),,,0,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,LAPTOP DELL INSPIRON 3480I (P89G003N80I),,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS VIVOBOOK A412FA-EK153T,,,0,1.5 kg
+,hoc-tap-van-phong,Core i5,8265U,256 GB,Intel UHD Graphics 620,,Laptop Acer Aspire 3 A315-54-57PJ,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,Laptop HP Pavilion 14 CE2034TU (6YZ17PA),,,0,
+,hoc-tap-van-phong,Intel Core i3,7020U,256 GB,Intel HD Graphics 620,,LAPTOP ACER ASPIRE 3 A315-54K-36QU (NX.HEESV.007),,,1,1.9 kg
+,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX130,,Laptop Asus X507UF-EJ079T,,,0,1.5 kg
+,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX110,,LAPTOP ASUS X407U - BV147T,,,0,1.52 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,Laptop Dell Vostro V3580I (P75F010V80I),,,0,2.2 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,,Intel UHD Graphics 620,,LAPTOP ACER ASPIRE E5-476-50SZ,,,0,2.0 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,LAPTOP ASUS VIVOBOOK A512FA-EJ440T,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,LAPTOP ACER ASPIRE A514-51-525E (NX.H6VSV.002),,,0,1.9 kg
+,hoc-tap-van-phong,AMD Ryzen™ 7,3700U,512GB,AMD Radeon™ Vega 10 Graphics,,Laptop Asus A512DA-EJ418T,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,,Intel UHD Graphics 620,,LAPTOP ACER ASPIRE A515-53-50ZD (NX.H6DSV.001),,,0,2.072 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,LAPTOP HP 15-DA0051TU (4ME64PA),,,0,1.77 kg
+,hoc-tap-van-phong,Intel Core i7,8550U,,NVIDIA GeForce MX130,,LAPTOP ACER ASPIRE E5-576G-88EP,,,0,2.23 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS X509FA-EJ101T,,,0,1.8 kg
+,hoc-tap-van-phong,Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop Asus X509FA-EJ201T,,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,LAPTOP DELL INSPIRON N5480B (P92G001),,,1,1.48 kg
+,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,LAPTOP HP ENVY X360 (6ZF30PA),,,1,1.3 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,500 GB,AMD Radeon R7 M530 2GB,,LAPTOP LENOVO IDEAPAD 330-15IKB (81DE01JSVN),,,0,1.95 kg
+,hoc-tap-van-phong,Intel Core i3,10110U,1 TB,Intel UHD Graphics,,Laptop Dell Vostro 3590 V5I3505W,,,0,
+,hoc-tap-van-phong,Core i5,8265U,1 TB,NVIDIA GeForce MX230 2GB GDDR5,,Laptop Asus X509F-EJ153T,,,0,1.8 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,Laptop HP Pavilion 15 CS2033TU 6YZ14PA Xám,,,0,1.85 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,Laptop HP Pavilion 15 CS2034TU 6YZ06PA Vàng,,,0,1.85 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,,Intel UHD Graphics 620,,Laptop HP ProBook 430 G6 (5YN22PA),,,1,1.49 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,MX130,,Laptop HP Pavilion 15 CS2057TX (6YZ20PA) Xám,,,0,1.85 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop HP Pavilion X36014-DH0104TU,,,0,1.607 kg
+,hoc-tap-van-phong,Core i5,1035G1,HDD 1TB + SSD 128GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5402W,,,1,
+,hoc-tap-van-phong,AMD Ryzen™ 3,3200U,256 GB,AMD Radeon™ Vega 3 Graphics,,Laptop Acer Aspire A315-42-R8PX,,,1,
+,hoc-tap-van-phong,Intel Core i7,8265U,512 GB,NVIDIA GeForce MX230,,Laptop Asus X409FJ-EK137T,,,1,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX110,,LAPTOP HP 15-DA1031TX (5NK55PA),,,0,1.77 kg
+,hoc-tap-van-phong,Intel Core i5,10210U,256 GB PCie,Intel UHD Graphics 620,,Laptop Dell Vostro 5490 V4I5106W,,,1,1.49 kg
+,hoc-tap-van-phong,Core i5,8250U,256 GB,AMD Radeon 530,,Laptop Dell Vostro 5370 (V5370B),,,1,
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,LAPTOP HP PROBOOK 430 G6 (5YN00PA),,,1,1.4 kg
+,hoc-tap-van-phong,Core i5,10210U,256 GB,Intel UHD Graphics 620,,Laptop Acer Aspire A315-54-52HT,,,1,
+,hoc-tap-van-phong,i3,8145U,512GB,,,Laptop Asus A512FA EJ1170T,,,1,1.8 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,512 GB,Intel UHD Graphics 620,,Laptop Asus A512FA-EJ837T,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,10210U,256 GB,Intel UHD Graphics 620,,Laptop Acer A514-52-516K (NX.HMHSV.002),,,1,1.6 kg
+,hoc-tap-van-phong,Core i5,10210U,512 PCie,Intel UHD Graphics,,Laptop Acer Aspire A315-54-59ZJ,,,1,
+,hoc-tap-van-phong,Core i5,8265U,512 GB,Intel UHD Graphics 620,,Laptop Asus S431FA-EB511T,,,1,1.4 kg
+,hoc-tap-van-phong,Core i5,10210U,512 GB,Intel UHD Graphics,,Laptop Dell Inspiron 13 7000 2-in-1,,,1,1.4 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,UHD Intel® 620,,LAPTOP LENOVO IDEAPAD 330-14IKBR 81G2007BVN,,,0,2.1 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,LAPTOP DELL INSPIRON 3480 (N4I5107W) BẠC,,,0,1.66 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,LAPTOP HP ENVY 13-AQ0027TU (6ZF43PA),,,1,1.18 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX 130,,LAPTOP HP PAVILION 15-CS2056TX,,,0,
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,LAPTOP HP PAVILION X36014-DH0103TU,,,0,1.65 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP HP PAVILION 14-CE2039TU,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP HP PAVILION 14-CE2038TU,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,LAPTOP HP PAVILION 14-CE2041TU,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,,Intel HD Graphics 620,,Laptop Dell Vostro 3480-70187708,,,0,1.9 kg
+,hoc-tap-van-phong,Core i5-8265U,8145U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS A412FA-EK153T BẠC,,,0,1.5 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,Laptop Asus Vivobook A512FA-EJ099T,,,0,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,LAPTOP HP ENVY 13-AQ0026TU (6ZF38PA),,,1,1.18 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,,Laptop Dell Inspiron 3580 (70194511),,,0,2.19 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop Dell Vostro 5581 (70194501),,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,Intel UHD Graphics 620,,Laptop Asus S531FA (BQ105T),,,1,1.8 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,NVIDIA GeForce MX250,,Laptop Asus S531FL (BQ190T),,,1,1.8 kg
+,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,Laptop Asus A412F-EK224T,,,1,1.4 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel® HD Graphics 620,,Laptop Dell Inspiron N3567,,,0,
+,hoc-tap-van-phong,AMD Ryzen™ 7,2700U,256GB PCie,,,Laptop HP ProBook 455 G6 6XA63PA,,,1,2.0 kg
+,hoc-tap-van-phong,AMD Quad Core,R5-3500U,256 GB,NVIDIA GeForce GTX 1050,,Laptop Asus D570DD-E4028T,,,1,
+,hoc-tap-van-phong,Intel Core i5,1035G1,1TB,,,Laptop Dell Inspiron N3593 (P75F013N93B),,,0,
+,hoc-tap-van-phong,Intel Core i5,10210U,1TB,AMD 610 GDDR5,,Laptop Dell Vostro V3590A (P75F010N90A),,,0,
+,hoc-tap-van-phong,Core i5,10210U,512 GB,,,Laptop HP 15S-DU1037TX (8RK37PA),,,1,1.74 kg
+,hoc-tap-van-phong,Intel Core i7,10510U,512 GB,,,Laptop HP 15S-DU1040TX (8RE77PA),,,1,1.74 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,,Intel HD Graphics 620,,Laptop HP 240 G7 (9FM95PA),,,0,
+,hoc-tap-van-phong,Core i5,8265U,512 GB,Intel UHD Graphics 620,,Laptop Asus X409FA-EK201T,,,1,1.5 kg
+,hoc-tap-van-phong,,,1TB,,,Laptop Asus X409UA-EK092T,,,0,1.6 kg
+,hoc-tap-van-phong,Core i5,8265U,512GB,Intel UHD Graphics 620,,Laptop Asus S531FA-BQ154T,,,1,1.75 kg
+,hoc-tap-van-phong,Intel Core i3,1005G1,1TB,,,Laptop Dell Inspiron N3593 (P75F013N93A),,,0,
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,,,LAPTOP ASUS S530FA-BQ185T,,,0,1.78 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,500 GB,Intel UHD Graphics 620,,LAPTOP HP PROBOOK 440 G6 (5YM63PA),,,0,1.6 kg
+,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,256 GB,Vega 8,,Laptop Acer Swift 3 SF314-41-R8VS R5 (NX.HFDSV.002),,,1,1.5 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel UHD Graphics 620,,LAPTOP HP PROBOOK 440 G6 (6FG86PA),,,1,1.6 kg
+,hoc-tap-van-phong,Intel Core i3,7200U,1TB,Intel HD Graphics 620,,LAPTOP ACER ASPIRE A315-325E (NX.GNPSV.037),,,0,1.91 kg
+,hoc-tap-van-phong,Intel Core i5,8350U,256 GB,Intel UHD Graphics 620,,LAPTOP DELL LATITUDE 5490 (70156591),,,1,1.8 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,Laptop Asus P1440FA-FA0420T,,,1,1.6 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,1TB,MX250,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
+,hoc-tap-van-phong,Intel Core i7,8550U,1TB,NVIDIA GeForce MX150,,LAPTOP ASUS VIVOBOOK S15 S530UN-BQ198T,,,0,1.79 kg
+,hoc-tap-van-phong,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GREY (MV962SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,Laptop Asus P1440FA-FA0420T,,,1,1.6 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,1TB,MX250,,LAPTOP HP PAVILION 15-CS2058TX (6YZ12PA) VÀNG,,,0,1.85 kg
+,hoc-tap-van-phong,Intel Core i5,8300H,1TB,NVIDIA GeForce® GTX 1050,,LAPTOP ACER ASPIRE 7 A715-72G-50NA (NH.GXBSV.001),,,0,2.4 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,NVIDIA GeForce MX130,,LAPTOP DELL INSPIRON 5584 - N5I5413W-BẠC,,,1,1.95 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,LAPTOP ASUS VIVOBOOK A512FA-EJ571T,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,Dual‑core 8th‑gen,128 GB,Intel UHD Graphics 617,,MACBOOK AIR 13.3 INCH 2019 128GB GOLD (MVFM2SA/A),,,1,1.25 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 605,,LAPTOP ACER ASPIRE A515-53-3153,,,0,2.0 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel HD Graphics 620,,LAPTOP ACER SWIFT 3 SF315-52-52Z7- NX.GZBSV.004,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Pentium,N5000,64 GB,Intel UHD Graphics 605,,LAPTOP ACER SWIFT SF114-32-P2SG NX.GZISV.001,,,0,1.4 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,512GB,Intel UHD Graphics 620,,Laptop Asus A412F-EK223T,,,1,
+,hoc-tap-van-phong,Intel Core i5,Quad-core,256 GB,Intel Iris Plus Graphics 655,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MV992SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,Intel® UHD Graphics 620,,LAPTOP ASUS VIVO BOOK S530UA-BQ278T,,,0,1.44 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS X407UA - BV309T,,,0,1.45 kg
+,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,LAPTOP ASUS A510UA-EJ1217T,,,0,1.78 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel HD Graphics 620,,LAPTOP LENOVO THINKPAD E490S 20NGS01N00,,,1,2.82 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,,Intel UHD Graphics,,LAPTOP ASUS S510UA-BQ1249T,,,0,1.78 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,512 GB,NVIDIA GeForce MX150,,Laptop Asus S330FN (EY037T),,,1,1.2 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,AMD Radeon 530 2GB GDDR5,,LAPTOP DELL INSPIRON 15 5570 (M5I5238),,,0,2.3 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256GB,Intel UHD Graphics 620,,Laptop Asus S430FA-EB459T,,,1,1.54 kg
+,hoc-tap-van-phong,Intel Core i5,Dual Core,128 GB,Intel Iris Plus Graphics 640,,MACBOOK PRO 13 INCH 128GB 2017 (MPXQ2SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,,LAPTOP ASUS X509FJ- EJ053T,,,0,1.8 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,,LAPTOP DELL INSPIRON 3580 (70188451),,,0,2.19 kg
+,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,Laptop Asus S530UA BQ034T,,,0,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX130,,LAPTOP DELL INSPIRON 5584 - N5I5384W-BẠC,,,0,1.95 kg
+,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel UHD Graphics 620,,Laptop Asus S530UA BQ034T,,,0,1.6 kg
+,hoc-tap-van-phong,Core i5,1035G1,256GB,NVIDIA,,Laptop Dell Inspiron 15 5000 5593 N5I5513W,,,1,
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,LAPTOP LENOVO THINKPAD L390 20NRS00100,,,1,1.46 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel UHD Graphics 620,,LAPTOP DELL VOSTRO 13 5370 (7M6D51),,,1,1.4 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,,,Laptop Dell Latitude 3400 (70188730),,,1,
+,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel HD Graphics 620,,MÁY TÍNH XÁCH TAY ASUS S510UA - BQ222T,,,1,1.7 kg
+,hoc-tap-van-phong,Core i5,Quad-core,512GB,Intel Iris Plus Graphics 655,,Macbook Pro 13 Touch Bar 512GB 2018 (MR9R2SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel UHD Graphics,,LAPTOP ACER SWIFT 3 SF314-54-58KB NX.GXZSV.002,,,1,1.5 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,256 GB,Intel UHD Graphics 620,,Laptop Acer Swift 3 SF314-56-38UE,,,1,1.5 kg
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX150,,LAPTOP ASUS VIVOBOOK S410UN-EB210T,,,0,1.4 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel UHD Graphics 620,,LAPTOP HP PROBOOK 440 G6 (5YM61PA),,,1,1.6 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,LAPTOP ACER SWIFT 5 SF514-53T-58PN (NX.H7HSV.001) XANH,,,1,0.97 kg
+,hoc-tap-van-phong,Core i5,9300H,256GB,VGA NVIDIA,,Laptop Dell Inspiron 7591-N5I5591W,,,1,
+,hoc-tap-van-phong,Intel Core i3,8130U,1TB,Intel HD Graphics 620,,LAPTOP DELL INSPIRON 14 3476 (8J61P1),,,0,1.97 kg
+,hoc-tap-van-phong,Intel Core i3,8145U,1TB,Intel UHD Graphics 620,,LAPTOP ACER ASPIRE A515-53-30QH (NX.H6BSV.003),,,0,2.072 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,LAPTOP HP 15-DA0050TU (4ME67PA),,,0,1.77 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 520,,Laptop Asus X509UA-EJ116T,,,0,1.9 kg
+,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,512GB,AMD Radeon™ Vega 8 Graphics,,Laptop Asus A512DA-EJ406T,,,1,1.7 kg
+,hoc-tap-van-phong,Core i5,9300H,512GB,NVIDIA,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,LAPTOP LENOVO THINKPAD E490S 20NGS01K00,,,1,2.82 kg
+,hoc-tap-van-phong,Intel Core i7,8565U,256 GB,Intel HD Graphics 620,,LAPTOP LENOVO THINKPAD L390 20NRS00500,,,1,1.46 kg
+,hoc-tap-van-phong,Intel Core i5,Quad‑core 8th‑gen,256 GB,Intel Iris Plus Graphics 645,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR GRAY (MUHP2SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i5,Quad‑core 8th‑gen,256 GB,Intel Iris Plus Graphics 645,,MACBOOK PRO 13.3 2019 256GB TOUCH BAR SILVER (MUHR2SA/A),,,1,1.37 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,LAPTOP DELL INSPIRON 3480 (N4I5107W) ĐEN,,,0,1.66 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 520,,Laptop Asus X509UA-EJ116T,,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,500 GB,Intel HD Graphics 620,,LAPTOP HP 15-DA0050TU (4ME67PA),,,0,1.77 kg
+,hoc-tap-van-phong,AMD Ryzen™ 5,3500U,512GB,AMD Radeon™ Vega 8 Graphics,,Laptop Asus A512DA-EJ406T,,,1,1.7 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,256 GB,Intel HD Graphics 620,,LAPTOP LENOVO THINKPAD E490S 20NGS01K00,,,1,2.82 kg
+,hoc-tap-van-phong,Core i5,9300H,512GB,NVIDIA,,Laptop Dell G3 15 3590 - N5I5518W,,,1,
+,hoc-tap-van-phong,Intel Core i5,8250U,1TB,NVIDIA GeForce MX110,,LAPTOP ASUS X407U - BV145T,,,0,1.52 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel® UHD Graphics 620,,LAPTOP DELL N3567 P63F002N67S,,,0,1.9 kg
+,hoc-tap-van-phong,Intel Core i3,7020U,1TB,Intel HD Graphics 620,,LAPTOP DELL VOSTRO 3468 (70161069),,,0,1.76 kg
+,hoc-tap-van-phong,Intel Core i5,8265U,1TB,Intel HD Graphics 620,,LAPTOP HP 15-DA1022TU (5NK80PA),,,0,1.77 kg
+,hoc-tap-van-phong,Intel Core i5,10210U,512 GB,Intel UHD Graphics 620,,Laptop Acer A515-54-54EU (NX.HN3SV.002),,,1,1.7 kg
+,hoc-tap-van-phong,,,256 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3015TU (8QP15PA),,,1,"1,698 kg"
+,hoc-tap-van-phong,Intel Core i5,1035G1,,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3011TU (8QN96PA),,,0,"1,706 kg"
+,hoc-tap-van-phong,Core i5,10210U,512 GB,Intel UHD Graphics 620,,Laptop Asus UX434FAC-A6116T,,,1,1.26 kg
+,hoc-tap-van-phong,Core i5,10210U,512 GB,NVIDIA GeForce MX250,,Laptop Asus UX434FLC-A6212T,,,1,1.26 kg
+,hoc-tap-van-phong,,,512 GB,NVIDIA GeForce MX250,,Laptop HP Pavilion 15-CS3063TX (8RK42PA),,,1,"1,766 kg"
+,hoc-tap-van-phong,Intel Core i5,8250U,256 GB,Intel® UHD Graphics 620,,Laptop MSI PS42 8M-288VN,,,1,1.18 kg
+,hoc-tap-van-phong,Core i5,8265U,1TB,Intel UHD Graphics 620,,Laptop Dell Inspiron 15 5584-CXGR01,,,0,2 kg
+,hoc-tap-van-phong,Intel Core i7,8550U,256 GB,Intel UHD Graphics 620,,LAPTOP ASUS S430UA-EB097T,,,1,1.40 kg
+,hoc-tap-van-phong,Core i5,10210U,512 GB,NVIDIA GeForce GTX 1650,,Laptop Asus UX534FTC-A9168T,,,1,1.55 kg
+,hoc-tap-van-phong,Intel Core i5,1035G1,256 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3119TX (9FN16PA),,,1,"1,746 kg"
+,hoc-tap-van-phong,Intel Core i5,1035G1,512 GB,Intel UHD Graphics,,Laptop HP Pavilion 15-CS3060TX (8RJ61PA),,,1,"1,761 kg"
+,hoc-tap-van-phong,Core i5,1035G1,512GB PCie,NVIDIA GeForce MX230 2GB,,Laptop Dell Inspiron 15 5000 5593 N5I5461W,,,1,
+,hoc-tap-van-phong,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Gray (MVVJ2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Intel Core,i7,512 GB,,,Macbook Pro 16.0 inch 512GB Silver (MVVL2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Intel Core,i9,1 TB,,,Macbook Pro 16.0 inch 1TB Gray (MVVK2SA/A),,,1,2.0 kg
+,hoc-tap-van-phong,Intel Core,i9,1 TB,,,Macbook Pro 16.0 inch 1TB Silver (MVVM2SA/A),,,1,2.0 kg
+4 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,1.0,"Laptop ASUS ROG Strix Scar III G531GV-VAZ160T (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.6 kg)",16GB,1920 x 1080,512GB,2.6
+4 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,1.0,"Laptop ASUS ROG Zephyrus M GU502GU-AZ090T (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2 kg)",16GB,1920 x 1080,512GB,2.0
+3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1660Ti,0.0,"Laptop HP Pavilion Gaming 15-dk0003TX (7HR34PA) (15"" FHD/i7-9750H/16GB/512GB SSD/1TB HDD/GTX 1660Ti/Win10/2.2 kg)",16GB,1920 x 1080,512GB,2.2
+3 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1650,0.0,"Laptop HP Pavilion Gaming 15-dk0233TX (8DS86PA) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,512GB,2.2
+3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,0.0,"Laptop HP Pavilion Gaming 15-dk0232TX (8DS85PA) (15"" FHD/i7-9750H/8GB/1TB HDD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,,2.2
+3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,0.0,"Laptop Lenovo Legion Y540-17IRH (81T3001HVN) (17"" FHD/i7-9750H/8GB/128GB SSD/1TB HDD/GTX 1650/FreeDOS/2.9 kg)",8GB,1920 x 1080,128GB,2.9
+3 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,0.0,"Laptop Lenovo Legion Y740-15IRHG (81UH003JVN) (15"" FHD/i7-9750H/16GB/1TB SSD/RTX 2060/Win10/2.2 kg)",16GB,1920 x 1080,1TB,2.2
+4 cell,gaming,Intel Core i5,8300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Acer Nitro 5 AN515-52-53PC (NH.Q3MSV.00B) (15"" FHD/i5-8300H/8GB/512GB SSD/GTX 1050/Win10/2.5 kg)",8GB,1920 x 1080,512GB,2.5
+6 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce RTX 2060,1.0,"Laptop MSI GL65 9SEK-047VN (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.3kg)",16GB,1920 x 1080,512GB,2.3
+3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,0.0,"Laptop Dell G3 15 3590-N5I5518W (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.3kg)",8GB,1920 x 1080,512GB,2.3
+3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Dell G3 15 3590-N5I5517W (15"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050/Win10/2.3kg)",8GB,1920 x 1080,256GB,2.3
+3 cell,gaming,Intel Core i5 ,9300H,1TB,NVIDIA GeForce GTX 1050,0.0,"Laptop Lenovo Legion Y7000-81V4000AVN (15"" FHD/i5-9300H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
+3 cell,gaming,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1050,0.0,"Laptop Lenovo Legion Y7000-15IRH (81V4000BVN) (15"" FHD/i7-9750H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
+4 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1660Ti,1.0,"Laptop MSI GS65 Stealth 9SD-1409VN (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1660Ti/Win10/1.9 kg)",8GB,1920 x 1080,512GB,1.9
+3 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1050Ti,1.0,"Laptop MSI Thin GF75 9RCX-430VN (17"" FHD/i7-9750H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
+4 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Acer Nitro 5 AN515-54-58TJ (NH.Q5ASV.015) (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1050/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
+4 cell,gaming,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1660Ti,0.0,"Laptop Acer Nitro 7 AN715-51-71F8 (NH.Q5HSV.004) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
+3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,1.0,"Laptop ASUS ROG Strix G G531GT-AL007T (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.4 kg)",8GB,1920 x 1080,512GB,2.4
+6 cell,gaming,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,0.0,"Laptop MSI GP65 Leopard 9SD-224VN (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",16GB,1920 x 1080,512GB,2.3
+3 cell,gaming,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050Ti,0.0,"Laptop MSI Thin GF75 9RCX-432VN (17"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
+4 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce RTX 2060,1.0,"Laptop ASUS ROG Strix Scar III G531GV-VAZ160T (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.6 kg)",16GB,1920 x 1080,512GB,2.6
+4 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce GTX 1660Ti,1.0,"Laptop ASUS ROG Zephyrus M GU502GU-AZ090T (15"" FHD/i7-9750H/16GB/512GB SSD/GTX 1660Ti/Win10/2 kg)",16GB,1920 x 1080,512GB,2.0
+,do-hoa,Intel Core i9,,,AMD Radeon Pro 560X,1.0,"Laptop Apple MacBook Pro 2019 MV932 (15"" 2880x1800/Core i9/16GB/512GB SSD/Radeon Pro 560X/macOS/1.8 kg)",16GB,2880 x 1800,512GB,1.8
+3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1660Ti,0.0,"Laptop HP Pavilion Gaming 15-dk0003TX (7HR34PA) (15"" FHD/i7-9750H/16GB/512GB SSD/1TB HDD/GTX 1660Ti/Win10/2.2 kg)",16GB,1920 x 1080,512GB,2.2
+3 cell,do-hoa,Intel Core i7,9750H,,NVIDIA GeForce GTX 1650,0.0,"Laptop HP Pavilion Gaming 15-dk0233TX (8DS86PA) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,512GB,2.2
+3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,0.0,"Laptop HP Pavilion Gaming 15-dk0232TX (8DS85PA) (15"" FHD/i7-9750H/8GB/1TB HDD/GTX 1650/Win10/2.2 kg)",8GB,1920 x 1080,,2.2
+3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1650,0.0,"Laptop Lenovo Legion Y540-17IRH (81T3001HVN) (17"" FHD/i7-9750H/8GB/128GB SSD/1TB HDD/GTX 1650/FreeDOS/2.9 kg)",8GB,1920 x 1080,128GB,2.9
+4 cell,do-hoa,Intel Core i7,9850H,,NVIDIA Quadro T2000,0.0,"Laptop HP ZBook 15 G6 (6CJ09AV) (15"" FHD/i7-9850H/16GB/256GB SSD/Quadro T2000/Free DOS/2.6 kg)",16GB,1920 x 1080,256GB,2.6
+4 cell,do-hoa,Intel Core i5,8300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Acer Nitro 5 AN515-52-53PC (NH.Q3MSV.00B) (15"" FHD/i5-8300H/8GB/512GB SSD/GTX 1050/Win10/2.5 kg)",8GB,1920 x 1080,512GB,2.5
+6 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce RTX 2060,1.0,"Laptop MSI GL65 9SEK-047VN (15"" FHD/i7-9750H/16GB/512GB SSD/RTX 2060/Win10/2.3kg)",16GB,1920 x 1080,512GB,2.3
+3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,0.0,"Laptop Dell G3 15 3590-N5I5518W (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.3kg)",8GB,1920 x 1080,512GB,2.3
+3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Dell G3 15 3590-N5I5517W (15"" FHD/i5-9300H/8GB/256GB SSD/GTX 1050/Win10/2.3kg)",8GB,1920 x 1080,256GB,2.3
+3 cell,do-hoa,Intel Core i5 ,9300H,1TB,NVIDIA GeForce GTX 1050,0.0,"Laptop Lenovo Legion Y7000-81V4000AVN (15"" FHD/i5-9300H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
+3 cell,do-hoa,Intel Core i7,9750H,1TB,NVIDIA GeForce GTX 1050,0.0,"Laptop Lenovo Legion Y7000-15IRH (81V4000BVN) (15"" FHD/i7-9750H/8GB/256GB SSD/1TB HDD/GTX 1050/Free DOS/2.3 kg)",8GB,1920 x 1080,256GB,2.3
+4 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1660Ti,1.0,"Laptop MSI GS65 Stealth 9SD-1409VN (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1660Ti/Win10/1.9 kg)",8GB,1920 x 1080,512GB,1.9
+3 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1050Ti,1.0,"Laptop MSI Thin GF75 9RCX-430VN (17"" FHD/i7-9750H/8GB/256GB SSD/GTX 1050Ti/Win10/2.2 kg)",8GB,1920 x 1080,256GB,2.2
+4 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1050,0.0,"Laptop Acer Nitro 5 AN515-54-58TJ (NH.Q5ASV.015) (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1050/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
+4 cell,do-hoa,Intel Core i7 ,9750H,,NVIDIA GeForce GTX 1660Ti,0.0,"Laptop Acer Nitro 7 AN715-51-71F8 (NH.Q5HSV.004) (15"" FHD/i7-9750H/8GB/512GB SSD/GTX 1660Ti/Win10/2.3 kg)",8GB,1920 x 1080,512GB,2.3
+3 cell,do-hoa,Intel Core i5 ,9300H,,NVIDIA GeForce GTX 1650,1.0,"Laptop ASUS ROG Strix G G531GT-AL007T (15"" FHD/i5-9300H/8GB/512GB SSD/GTX 1650/Win10/2.4 kg)",8GB,1920 x 1080,512GB,2.4
+4 cell,do-hoa,Intel Core i5,10210U,,NVIDIA GeForce MX250,0.0,"Laptop ASUS ZenBook Duo UX481FL-BM048T (14"" FHD/i5-10210U/8GB/512GB SSD/MX250/Win10/1.6kg)",8GB,1920 x 1080,512GB,1.6
+2 cell,van-phong,Intel Core i5,8265U,,,0.0,"Laptop ASUS VivoBook 14 A412FA-EK224T (14"" FHD/i5-8265U/8GB/512GB SSD/UHD 620/Win10/1.4 kg)",8GB,1920 x 1080,512GB,1.4
+2 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook 14 A412FA-EK377T (14"" FHD/i3-8145U/4GB /256GB SSD/UHD 620/Win10/1.5 kg)",4GB,1920 x 1080,256GB,1.5
+2 cell,van-phong,Intel Celeron 4205U,4205U,500GB,,0.0,"Laptop Lenovo Ideapad S145-15IWL (81MV00F1VN) (15"" FHD/Celeron 4205U/4GB/500GB HDD/UHD 620/Free DOS/1.9 kg)",4GB,1920 x 1080,,1.9
+3 cell,van-phong,Intel Core i5,8265U,1TB,AMD Radeon 520,0.0,"Laptop Dell Inspiron 3580-70194511 (15"" FHD/i5-8265U/4GB/1TB HDD/Radeon 520/Win10/2.3 kg)",4GB,1920 x 1080,,2.3
+3 cell,van-phong,Intel Core i7,8565U,2TB,AMD Radeon 520,0.0,"Laptop Dell Inspiron 3580-70194513 (15"" FHD/i7-8565U/8GB/2TB HDD/Radeon 520/Win10/2.3 kg)",8GB,1920 x 1080,,2.3
+2 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ1170T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
+2 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ837T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
+2 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook 15 A512FA-EJ1171T (15"" FHD/i3-8145U/4GB/512GB SSD/UHD 620/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
+2 cell,van-phong,Intel Core i3,7020U,1TB,,0.0,"Laptop ASUS 14 X409UA-EK092T (14"" FHD/i3-7020U/4GB/1TB HDD/HD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
+2 cell,van-phong,Intel Core i3,7020U,1TB,,0.0,"Laptop ASUS 14 X409UA-EK093T (14"" FHD/i3-7020U/4GB/1TB HDD/HD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
+3 cell,van-phong,Intel Core i5,8265U,1TB,,0.0,"Laptop HP Pavilion X360 14-dh0104TU (6ZF32PA) (14"" FHD/i5-8265U/4GB/1TB HDD/UHD 620/Win10/1.6 kg)",4GB,1920 x 1080,,1.6
+3 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook S13 S330FA-EY115T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
+3 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook S13 S330FA-EY113T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
+3 cell,van-phong,Intel Core i3,8145U,,,0.0,"Laptop ASUS VivoBook S13 S330FA-EY114T (13"" FHD/i3-8145U/8GB/512GB SSD/UHD 620/Win10/1.2 kg)",8GB,1920 x 1080,512GB,1.2
+3 cell,van-phong,Intel Core i3,8145U,1TB,,0.0,"Laptop HP Pavilion 15-cs2032TU (6YZ04PA) (15"" FHD/i3-8145U/4GB/1TB HDD/UHD 620/Win10/1.8 kg)",4GB,1920 x 1080,,1.8
+2 cell,van-phong,Intel Core i7,8565U,1TB,NVIDIA GeForce MX250,0.0,"Laptop ASUS VivoBook 15 A512FL-EJ165T (15"" FHD/i7-8565U/8GB/1TB HDD/MX250/Win10/1.7 kg)",8GB,1920 x 1080,,1.7
+2 cell,van-phong,Intel Core i5,8265U,,NVIDIA GeForce MX230,0.0,"Laptop ASUS 15 X509FJ-EJ155T (15"" FHD/i5-8265U/4GB/512GB SSD/MX230/Win10/1.7 kg)",4GB,1920 x 1080,512GB,1.7
+2 cell,van-phong,Intel Core i5,8265U,1TB,NVIDIA GeForce MX230,0.0,"Laptop ASUS 15 X509FJ-EJ153T (15"" FHD/i5-8265U/4GB/1TB HDD/MX230/Win10/1.8 kg)",4GB,1920 x 1080,,1.8
+3 cell,van-phong,Intel Core i5,8265U,,NVIDIA GeForce MX250,0.0,"Laptop ASUS VivoBook S15 S531FL-BQ190T (15"" FHD/i5-8265U/8GB/512GB SSD/MX250/Win10/1.7 kg)",8GB,1920 x 1080,512GB,1.7
+2 cell,van-phong,Intel Core i3,7020U,,,0.0,"Laptop Acer Aspire 3 A315-54K-32SD (NX.HFXSV.001) (15"" FHD/i3-7020U/4GB/256GB SSD/HD 620/Win10/1.7 kg)",4GB,1920 x 1080,256GB,1.7
