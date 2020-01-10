@@ -15,11 +15,13 @@ import time
 from utils import getLogger
 logger = getLogger()
 
-url = "https://www.thegioididong.com/laptop#i:50"
 detail_url = "https://www.thegioididong.com/aj/ProductV4/GetFullSpec/"
 DRIVER_EXT = 'exe' if (sys.platform == "Windows") else ''
 CHROME_EXEC="./driver/chromedriver" + DRIVER_EXT
 CONCURRENT = 4
+
+def get_url(tag: str) -> str:
+    return f"https://www.thegioididong.com/laptop?g={tag}#i:50"
 
 meta_attributes = list([
     "id",
@@ -42,7 +44,7 @@ detail_attributes = {
     'weight': 'g255',
 }
 
-def meta():
+def meta(tags: list):
     chrome_opts = Options()
     chrome_opts.set_headless(True)
     logger.info('Open headless chrome')
@@ -50,36 +52,42 @@ def meta():
         executable_path=CHROME_EXEC,
         chrome_options=chrome_opts
     )
-
-    logger.info(f'opening {url}')
-    driver.get(url)
     data_meta = list()
 
-    try:
-        logger.info('waiting load')
-        wait = WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, '.homeproduct li:not([data-productid])'))
-        )
-        logger.info('loaded')
-        
-        elements = driver.find_elements_by_css_selector('.homeproduct li[data-productid]')
+    for tag in tags:
+        url = get_url(tag)
 
-        for el in elements:
-            id = el.get_attribute('data-productid')
-            link = el.find_element_by_css_selector('a').get_attribute('href')
-            title = el.find_element_by_css_selector('h3, h2, h1').text
-            price_text: str = el.find_element_by_css_selector('.price strong').text
-            price = re.sub(r'\D', '', price_text)
-            data_meta.append({
-                'id': id,
-                'link': link,
-                'title': title,
-                'price': price,
-            })
-        driver.quit()
+        logger.info(f'opening {url}')
+        driver.get(url)
 
-    except Exception as err:
-        print (err)
+        try:
+            logger.info('waiting load')
+            wait = WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, '.homeproduct li:not([data-productid])'))
+            )
+            logger.info('loaded')
+            
+            elements = driver.find_elements_by_css_selector('.homeproduct li[data-productid]')
+
+            for el in elements:
+                id = el.get_attribute('data-productid')
+                link = el.find_element_by_css_selector('a').get_attribute('href')
+                title = el.find_element_by_css_selector('h3, h2, h1').text
+                price_text: str = el.find_element_by_css_selector('.price strong').text
+                price = re.sub(r'\D', '', price_text)
+                data_meta.append({
+                    'id': id,
+                    'link': link,
+                    'title': title,
+                    'price': price,
+                    'tag': tag,
+                })
+            # driver.close()
+
+        except Exception as err:
+            print (err)
+
+    driver.quit()
 
     df = pd.DataFrame(data_meta)
     df.to_csv('tgdd_meta.csv', sep=',', index=False)
@@ -182,8 +190,16 @@ def chuan_hoa():
     pass
 
 if __name__ == "__main__":
-    # data_meta = meta()
-    data_meta = pd.read_csv('tgdd_meta.csv')
-    data_meta = data_meta.T.to_dict().values()
+    command = sys.argv[1] if len(sys.argv) > 1 else ''
 
-    detail(data_meta)
+    if (command == 'meta'):
+        list_tags = list([
+            'laptop-gaming',
+            'do-hoa-ky-thuat',
+            'hoc-tap-van-phong'
+        ])
+        meta(list_tags)
+    else:
+        data_meta = pd.read_csv('tgdd_meta.csv')
+        data_meta = data_meta.T.to_dict().values()
+        detail(data_meta)
