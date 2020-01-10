@@ -15,6 +15,7 @@ requests-html = "*"
 selenium = "*"
 colorlog = "*"
 scikit-learn = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.6"
